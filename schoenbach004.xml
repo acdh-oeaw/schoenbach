@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xml:id="S004">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">XXXX</title>
+                <title level="a">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</title>
+                <author ref="#pmb12602">Saar, Ferdinand von</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>XXXX</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Untner, Laura</name>
+                    <name>XXXX</name>
+                </respStmt>
+                <idno type="schoenbach" n="004"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                        <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
+                            vervielfältigen und weiterverbreiten Bearbeiten — das Material remixen,
+                            verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar
+                            kommerziell.</p>
+                        <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich
+                            an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
+                        <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen,
+                            einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen
+                            wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht
+                            werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber
+                            unterstütze gerade Sie oder Ihre Nutzung besonders. Keine weiteren
+                            Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische
+                            Verfahren einsetzen, die anderen rechtlich irgendetwas untersagen, was
+                            die Lizenz erlaubt.</p>
+                        <p>Hinweise:</p>
+                        <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile
+                            des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen
+                            durch Ausnahmen und Schranken des Urheberrechts gedeckt sind. Es werden
+                            keine Garantien gegeben und auch keine Gewähr geleistet. Die Lizenz
+                            verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
+                            jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
+                            Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
+                            Nutzung des Materials entsprechend beschränken.</p>
+                    </licence>
+                </availability>
+                <idno type="handle">XXXX</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <p>XXXX</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Ö</country>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Akademie der Wissenschaften</repository>
+                                <idno>Anton Emanuel Schönbach XXXX</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <desc type="brief"/>
+                                    <desc type="_blaetter" n="1"/>
+                                    <desc type="_seiten" n="2"/>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote medium="schwarze_tinte" style="deutsche-kurrent"/>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pmb12602">Saar, Ferdinand von</persName>
+                    <date when="1888-01-03">3. 1. 1888</date>
+                    <placeName ref="#pmb100860">Blansko</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pmb3330">Schönbach, Anton Emanuel</persName>
+                    <placeName ref="#pmb860">Graz</placeName>
+                    <date evidence="conjecture" notBefore="1888-01-04" notAfter="1888-01-08"
+                        >[3. 1. 1888 – 8. 1. 1888]</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="LU" when="2022-10-24">Angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener><dateline rend="right"><pb facs="XXXX"/><rs type="place" ref="#pmb100860"
+                                ><hi rend="latintype">Blansko</hi> in Mähren</rs>; <date
+                            when="1888-01-03">3' Januar 1888</date>.</dateline>
+                    <salute rend="left">Hochverehrter Herr Regierungsrath!</salute></opener>
+                <p>Ich kann das neue <date when="1888">Jahr</date> nicht besser beginnen, als in dem
+                    ich Ihnen danke. Es wurde mir nämlich von befreundeter Hand unter Kreuzband ein
+                    kleines <rs type="work" subtype="implied" ref="">Buch</rs> zugesendet, in
+                    welchem meiner <rs type="work" subtype="implied" ref="">Novellen</rs> in so
+                    auszeichnender Weise gedacht wird. Aber nicht allein für diese mich
+                    hocherfreuende und fördernde Anerkenung muß ich Ihnen danken: sondern auch für
+                    den geistigen Genuß, den mir das <rs type="work" subtype="implied" ref=""
+                        >Werk</rs> selbst in seiner so überaus vornehmen Haltung und durch die
+                    tiefen Wahrheiten, die es ausspricht, bereitet hat. Schon lange bevor ich es
+                    erhielt, hatte ich meinen <rs type="org" subtype="implied" ref="">Verleger</rs>
+                    beauftragt, Ihnen ein Exemplar des zweiten, um ein <pb facs="XXXX"/>gutes
+                    Drittel vermehrten Auflage meiner <rs type="work" subtype="implied" ref=""
+                        >Gedichte</rs> zu übersenden; denn Sie werden wohl selbst fühlen, wie sehr
+                    ich wünschen müßte, daß meine Schriften von Ihnen gekannt seien – und mit den
+                        <rs type="work" subtype="implied" ref="">Gedichten</rs> wollte ich den
+                    Anfang machen. Manche, so darf ich hoffen, werden Ihnen gefallen, ich spreche
+                    daher die herzliche Bitte aus, das <rs type="work" subtype="implied" ref=""
+                        >Buch</rs> mit liebevoller Aufmerksamkeit vorzunehmen und gewogen zu
+                    bleiben,</p>
+                <closer>wahrhaft verehrter Herr, <lb/>Ihrem <lb/>tief ergebenen <lb/>Ferdinand von
+                        <hi rend="latintype">Saar</hi>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

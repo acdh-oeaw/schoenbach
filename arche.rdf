@@ -187,6 +187,70 @@
       
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
       </acdh:Collection>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/S005">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/S005"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de"></acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/S001">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/S001"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de"></acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="https://github.com/acdh-oeaw/schoenbach/data/editions/f_003.xml">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/f_003.xml"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">Sample File 003</acdh:hasTitle>
@@ -277,6 +341,70 @@
          </acdh:Organisation>
       </acdh:hasActor>
    </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/S003">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/S003"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de"></acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/S002">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/S002"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de"></acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="https://github.com/acdh-oeaw/schoenbach/data/editions/f_001.xml">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/f_001.xml"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">Sample File 001</acdh:hasTitle>
@@ -284,6 +412,38 @@
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
       <acdh:isPartOf rdf:resource="https://github.com/acdh-oeaw/schoenbach/data/editions"></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/S004">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/schoenbach/S004"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de"></acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
       
       <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
       
