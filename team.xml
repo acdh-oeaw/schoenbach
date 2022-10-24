@@ -1,0 +1,32 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title level="a">Über das Projekt</title>
+              <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
+           </titleStmt>
+           <publicationStmt>
+              <p>Publication Information</p>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Information about the source</p>
+           </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <p>Mehrere Personen waren am Entstehen dieser Edition beteiligt:</p>
+           <list>
+              <item>Konstanze Fliedl</item>
+              <item>Anna Lindner</item>
+              <item>Sandra Mayer</item>
+              <item>Martin Anton Müller</item>
+              <item>Claudia Resch</item>
+              <item>Laura Untner</item>
+           </list>
+           <p>Ein besonderer Dank gebührt Stefan Sienell vom Archiv der Österreichischen Akademie der Wissenschaften,
+           der uns auf den Bestand aufmerksam machte und die Digitalisate zur Verfügung stellte.</p>
+        </body>
+    </text>
+  </TEI>
+  

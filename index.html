@@ -14,17 +14,18 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
-         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="dist/fundament/images/fundament_logo.svg" class="img-fluid" title="schoenbach" alt="schoenbach" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="schoenbach" itemprop="url">schoenbach</a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav">
                         <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
-                              <li class="nav-item dropdown-submenu"><a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Team" href="about.html" class="nav-link">Team</a></li>
                            </ul>
                         </li>
                         <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
                               <li class="nav-item dropdown-submenu"><a title="Personen" href="listperson.html" class="nav-link">Personen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listwork.html" class="nav-link">Werke</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Orte" href="listplace.html" class="nav-link">Orte</a></li>
-                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listorg.html" class="nav-link">Institutionen</a></li>
                               <div class="dropdown-divider"></div>
                               <li class="nav-item dropdown-submenu"><a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a></li>
                            </ul>
@@ -40,28 +41,18 @@
             <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
                <ol class="carousel-indicators">
                   <li data-target="#audenIndexCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#audenIndexCarousel" data-slide-to="1"></li>
-                  <li data-target="#audenIndexCarousel" data-slide-to="2"></li>
                </ol>
                <div class="carousel-inner">
                   <div class="carousel-item active"><img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..." /><div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                        <h1>schoenbach</h1>
-                        <h2>Briefe aus dem Nachlass von Anton Emanuel Schönbach</h2>
-                        <p>Some teaser text for the <strong>schoenbach</strong></p><button class="btn btn-round"><a href="toc.html">Read More</a></button></div>
-                  </div>
-                  <div class="carousel-item"><img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..." /><div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                        <h1>Example Content Slide 2</h1>
-                        <h2>Example Subtitle Slide 2</h2>
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                     </div>
-                  </div>
-                  <div class="carousel-item"><img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..." /><div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                        <h1>Example Content Slide 3</h1>
-                        <h2>Example Subtitle Slide 3</h2>
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                     </div>
+                        <h1>Anton Emanuel Schönbach</h1>
+                        <h2>Fünf Briefe aus seinem Nachlass</h2>
+                        <p>Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass
+                           
+                           des Germanisten Anton Emanuel Schönbach (1848–1911) aufbewahrt. Daraus veröffentlichen
+                           
+                           wir vier Briefe von Ferdinand von Saar an ihn, sowie ein Kondolenzschreiben von Marie
+                           von
+                           Ebner Eschenbach an seine Witwe.</p><button class="btn btn-round"><a href="toc.html">Zu den Briefen</a></button></div>
                   </div>
                </div>
             </div>
@@ -91,11 +82,11 @@
                               </h3>
                         </div>
                      </div></a></div>
-               <div class="col-md-4"><a href="listorg.html" class="index-link">
+               <div class="col-md-4"><a href="listwork.html" class="index-link">
                      <div class="card index-card">
                         <div class="card-body"><img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..." /></div>
                         <div class="card-header">
-                           <h3><i class="fas fa-university"></i>  Institutionenregister
+                           <h3><i class="fas fa-university"></i>  Werksregister
                               </h3>
                         </div>
                      </div></a></div>
