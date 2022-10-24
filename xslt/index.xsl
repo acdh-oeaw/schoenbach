@@ -28,11 +28,11 @@
                             <div class="container hero-dark" id="wrapper-hero-inner" tabindex="-1">-->
                                 <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
-                                        <li data-target="#audenIndexCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#schoenbachIndexCarousel" data-slide-to="0" class="active"></li>
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/ACDH-CH_Campus.jpg" class="d-block w-100" alt="..."/>
                                             <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
                                                 <h1>Anton Emanuel Schönbach</h1>
                                                 <h2>Fünf Briefe aus seinem Nachlass</h2>

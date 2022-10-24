@@ -5,7 +5,7 @@
     <xsl:param name="project_title">Briefe aus dem Nachlass von Anton Emanuel Schönbach</xsl:param>
     <xsl:param name="project_short_title">schoenbach</xsl:param>
     <xsl:param name="github_url">https://github.com/acdh-oeaw/schoenbach</xsl:param>
-    <xsl:param name="html_title">schoenbach</xsl:param>
-    <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
-    <xsl:param name="base_url">https://schnoenbach.acdh.oeaw.ac.at</xsl:param>
+    <xsl:param name="html_title">Schönbach</xsl:param>
+    <xsl:param name="project_logo">https://shared.acdh.oeaw.ac.at/schoenbach/schoenbach-logo.jpg</xsl:param>
+    <xsl:param name="base_url">https://schoenbach.acdh.oeaw.ac.at</xsl:param>
 </xsl:stylesheet>

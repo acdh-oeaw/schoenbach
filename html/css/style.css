@@ -13,7 +13,7 @@ div.dataTables_filter {
 }
 
 .navbar {
-    border-bottom: 5px solid #3F888F !important;
+    border-bottom: 5px solid #62C3D0 !important;
 }
 
 .dataTables_info {
@@ -46,7 +46,7 @@ div.dataTables_filter {
 }
 
 .index-card {
-    border-top: 5px solid #3F888F; 
+    border-top: 5px solid #62C3D0; 
     transition: transform .2s;
 }
 
