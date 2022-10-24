@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="s">XXXX</title>
+                <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
                 <title level="a">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</title>
                 <author ref="#pmb12602">Saar, Ferdinand von</author>
                 <editor>
@@ -12,14 +12,14 @@
                 </editor>
             </titleStmt>
             <editionStmt>
-                <edition>XXXX</edition>
+                <edition>Special edition</edition>
                 <respStmt>
                     <resp>Transkription und Kommentierung</resp>
+                    <name>Fliedl, Konstanze</name>
+                    <name>Lindner, Anna</name>
                     <name>Müller, Martin Anton</name>
                     <name>Untner, Laura</name>
-                    <name>XXXX</name>
                 </respStmt>
-                <idno type="schoenbach" n="003"/>
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
@@ -52,11 +52,27 @@
                             Nutzung des Materials entsprechend beschränken.</p>
                     </licence>
                 </availability>
-                <idno type="handle">XXXX</idno>
+                <editionStmt>
+                    <edition>Special edition</edition>
+                    <respStmt>
+                        <resp>Transkription und Kommentierung</resp>
+                        <name>Fliedl, Konstanze</name>
+                        <name>Lindner, Anna</name>
+                        <name>Müller, Martin Anton</name>
+                        <name>Untner, Laura</name>
+                    </respStmt>
+                </editionStmt>
             </publicationStmt>
-            <seriesStmt>
-                <p>XXXX</p>
-            </seriesStmt>
+            <editionStmt>
+                <edition>Special edition</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Fliedl, Konstanze</name>
+                    <name>Lindner, Anna</name>
+                    <name>Müller, Martin Anton</name>
+                    <name>Untner, Laura</name>
+                </respStmt>
+            </editionStmt>
             <sourceDesc>
                 <listWit>
                     <witness n="1">
@@ -65,7 +81,7 @@
                                 <country>Ö</country>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Akademie der Wissenschaften</repository>
-                                <idno>Anton Emanuel Schönbach XXXX</idno>
+                                <idno>Splitternachlass Anton Emanuel Schönbach</idno>
                             </msIdentifier>
                             <physDesc>
                                 <objectDesc>
@@ -99,7 +115,7 @@
             </correspDesc>
         </profileDesc>
         <revisionDesc status="proposed">
-            <change who="LU" when="2022-10-24">Angelegt</change>
+            <change who="LU" when="2022-10-24">Angelegt aus Abschrift von Anna Lindner</change>
         </revisionDesc>
     </teiHeader>
     <text>
