@@ -53,7 +53,22 @@
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
-                                <p style="font-size:18px;line-heigth:27px;"><xsl:value-of select="//tei:body/tei:div/tei:p"/></p>  
+                                <p style="font-size:18px;line-heigth:27px;">
+                                    
+                                 <ul>
+                                     <li></li>
+                                     
+                                     
+                                     <li><a href="">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</a></li>
+                                     
+                                         schoenbach003.xml
+                                     Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888	schoenbach004.xml
+                                     Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898	schoenbach001.xml
+                                     Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888	schoenbach002.xml
+                                     Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911	schoenbach005.xml 
+                                 </ul>
+                                
+                                </p>  
                             </div>                          
                         </div>
                     </div>
