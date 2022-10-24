@@ -10,7 +10,7 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select=".//tei:titleStmt/tei:title[@level='a'][1]/text()"/>
         </xsl:variable>
 
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -29,37 +29,20 @@
                                 <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#audenIndexCarousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#audenIndexCarousel" data-slide-to="1"></li>
-                                        <li data-target="#audenIndexCarousel" data-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..."/>
                                             <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                                                <h1><xsl:value-of select="$project_short_title"/></h1>
-                                                <h2><xsl:value-of select="$project_title"/></h2>
-                                                <p>Some teaser text for the <strong><xsl:value-of select="$project_short_title"/></strong></p>
+                                                <h1>Anton Emanuel Schönbach</h1>
+                                                <h2>Fünf Briefe aus seinem Nachlass</h2>
+                                                <p>Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass 
+                                                des Germanisten Anton Emanuel Schönbach (1848–1911) aufbewahrt. Daraus veröffentlichen 
+                                                wir vier Briefe von Ferdinand von Saar an ihn, sowie ein Kondolenzschreiben von Marie von
+                                                Ebner Eschenbach an seine Witwe.</p>
                                                 <button class="btn btn-round">
-                                                    <a href="toc.html">Read More</a>
+                                                    <a href="toc.html">Zu den Briefen</a>
                                                 </button>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..."/>
-                                            <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                                                <h1>Example Content Slide 2</h1>
-                                                <h2>Example Subtitle Slide 2</h2>
-                                                <h5>Second slide label</h5>
-                                                <p>Some representative placeholder content for the second slide.</p>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="dist/fundament/images/acdh_building.jpg" class="d-block w-100" alt="..."/>
-                                            <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                                                <h1>Example Content Slide 3</h1>
-                                                <h2>Example Subtitle Slide 3</h2>
-                                                <h5>Third slide label</h5>
-                                                <p>Some representative placeholder content for the third slide.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -105,14 +88,14 @@
                                 </a>                                    
                             </div>
                             <div class="col-md-4">
-                                <a href="listorg.html" class="index-link">                                   
+                                <a href="listwork.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
-                                                <i class="fas fa-university"></i>  Institutionenregister
+                                                <i class="fas fa-university"></i>  Werksregister
                                             </h3>                                            
                                         </div>
                                     </div>                                     
