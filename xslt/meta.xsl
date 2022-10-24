@@ -13,7 +13,7 @@
     <xsl:import href="partials/tei-facsimile.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select=".//tei:title[@level='a'][1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -55,5 +55,36 @@
     </xsl:template>
     <xsl:template match="tei:del">
         <del><xsl:apply-templates/></del>
-    </xsl:template>    
+    </xsl:template> 
+    <xsl:template match="tei:list">
+        <xsl:element name="ul">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:item">
+        <xsl:element name="il">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend='superscript']">
+        <xsl:element name="sup">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend='italics']">
+        <xsl:element name="i">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:ref[@type='url']">
+        <xsl:element name="a">
+            <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
 </xsl:stylesheet>

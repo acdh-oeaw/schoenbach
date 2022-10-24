@@ -29,7 +29,7 @@
                                         <a title="SplitternachlassSchoenbach" href="nachlass.html" class="nav-link">Über den Splitternachlass</a>
                                     </li>
                                     <li>
-                                        <a title="Bericht" href="https://shared.acdh.oeaw.ac.at/schoenbach/Nadler-Kralik-1942.pdf" class="nav-link">Bericht über die Eröffnung</a>
+                                        <a title="Bericht" href="eroeffnung.html" class="nav-link">Bericht über die Eröffnung</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Team" href="team.html" class="nav-link">Team</a>
@@ -58,7 +58,7 @@
                                     </li>
                                 </ul>                                
                             </li>                            
-                            <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                            <!--<li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>-->
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
