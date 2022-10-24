@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xml:id="S002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">XXXX</title>
+                <title level="a">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</title>
+                <author ref="#pmb12602">Saar, Ferdinand von</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>XXXX</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Untner, Laura</name>
+                    <name>XXXX</name>
+                </respStmt>
+                <idno type="schoenbach" n="002"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                        <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
+                            vervielfältigen und weiterverbreiten Bearbeiten — das Material remixen,
+                            verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar
+                            kommerziell.</p>
+                        <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich
+                            an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
+                        <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen,
+                            einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen
+                            wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht
+                            werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber
+                            unterstütze gerade Sie oder Ihre Nutzung besonders. Keine weiteren
+                            Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische
+                            Verfahren einsetzen, die anderen rechtlich irgendetwas untersagen, was
+                            die Lizenz erlaubt.</p>
+                        <p>Hinweise:</p>
+                        <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile
+                            des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen
+                            durch Ausnahmen und Schranken des Urheberrechts gedeckt sind. Es werden
+                            keine Garantien gegeben und auch keine Gewähr geleistet. Die Lizenz
+                            verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
+                            jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
+                            Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
+                            Nutzung des Materials entsprechend beschränken.</p>
+                    </licence>
+                </availability>
+                <idno type="handle">XXXX</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <p>XXXX</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Ö</country>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Akademie der Wissenschaften</repository>
+                                <idno>Anton Emanuel Schönbach XXXX</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <desc type="brief"/>
+                                    <desc type="_blaetter" n="2"/>
+                                    <desc type="_seiten" n="4"/>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote medium="schwarze_tinte" style="deutsche-kurrent"/>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pmb12602">Saar, Ferdinand von</persName>
+                    <date when="1888-10-30">30. 10. 1888</date>
+                    <placeName ref="#pmb100860">Blansko</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pmb3330">Schönbach, Anton Emanuel</persName>
+                    <placeName ref="#pmb860">Graz</placeName>
+                    <date evidence="conjecture" notBefore="1888-10-31" notAfter="1888-11-04"
+                        >[31. 10. 1888 – 4. 11. 1888]</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="LU" when="2022-10-24">Angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener><dateline rend="right"><pb facs="XXXX"/>
+                        <rs type="place" ref="#pmb100860"><hi rend="latintype">Blansko</hi> in
+                            Mähren</rs>; <date when="1888-10-30"
+                        >30t. October 1888</date>.</dateline>
+                    <salute rend="left">Hochverehrter Herr!</salute></opener>
+                <p>Seit langem hat mir nichts so große Freude bereitet wie Ihre anerkennenden und so
+                    überaus herzlichen Zeilen. Ja, so ist es: Die sich verstehen könnten, gehen im
+                    Leben oft, ohne sich zu erkennen, einander vorüber. Ich bin stolz darauf, daß
+                    Ihnen diese Empfindung nachträglich gekommen ist; ich selbst habe schon damals
+                    lebhaft bedauert, daß ich Ihnen schriftstellerisch ganz fremd geblieben war. Die
+                    Initiative wollte ich insoferne nicht er greifen, als mich die Erfahrung gelehrt
+                    hatte, daß derlei Versuche in der Regel zu keinem erfreulichen Resultat führen.
+                    Nun aber schätze ich mich glücklich, daß Alles so gekommen ist und gebe mich den
+                    schönsten Hoffnungen für die Zukunft hin. Ihrer <pb facs="XXXX"/>so überaus
+                    liebenswürdigen Einladung, für die ich wärmstens danke, werde ich freilich in
+                    diesem Winter kaum folgen können. Den erstens bin ich schon hier und in <rs
+                        type="place" ref="#pmb50">Wien</rs> verpflichtet – und zweitens wird mir in
+                    Folge eines chronischen Unterleibsleidens das Reisen in kalter Jahreszeit fast
+                    unmöglich. Überdieß bin ich gegenwärtig mit einem Fußübel behaftet, das mich
+                    nahezu vier Wochen an Bett und Zimmer gefesselt hielt; nun gehe ich zwar aus,
+                    aber höchst mühselig mit Hilfes eines festen Stockes. Dabei verspüre ich in den
+                    letzten Tagen auch Schmerzen im linken Knie, die ich früher nicht hatte und
+                    welche mich mit allerlei schlimmen Befürchtungen erfüllen. Sollte etwa gar ein
+                    langwieriges Siechthum daraus werden? Das würde meinem Leben, das ohnehin
+                    traurig genug ist, noch den Rest geben . . . . .</p>
+                <p>Daß Sie in meinen Novellen die <unclear><rs type="place" ref="#pmb41240"
+                            >oesterreich</rs>ge</unclear> Luft geschmeckt, war mir eine Freude zu
+                    vernehmen. Ja, nur ein <rs type="place" ref="#pmb41240">Oesterreich</rs>er kann
+                    diese kleinen Schöpfungen verstehen und <pb facs="XXXX"/>genießen – trotz ihrer
+                    Mängel und Schwächen. Was nun den Titel des <rs type="work" subtype="implied"
+                        ref="">Buches</rs> betrifft, so muß ich Ihnen nach einiger Überlegung
+                    vollständig Recht geben; zu ändern ist die Sache nicht mehr – leider!
+                    Hinsichtlich der „<rs type="work" ref="">Troglodytin</rs>“ möchte ich nur sagen,
+                    daß nicht der Adjunkt, sondern der alternde, durch das Leben gereifte <hi
+                        rend="underline" n="1">Forstmeister</hi> die Geschichte aus der Erinnerung
+                    heraus erzählt. <unclear>Demnach</unclear> mag der Ton nicht ganz richtig sein –
+                    Sie hätten sonst gewiß nicht das Gefühl davon gehabt. Aber das ist überhaupt die
+                    mißliche Seite der „Ich-Geschichtten.“ –</p>
+                <p>Daß Ihr <rs type="work" subtype="implied" ref="">Buch „über Lesen und
+                        Bildung“</rs> der dritten Auflage entgegen geht, ist ein höchst erfreulicher
+                    Beweis, daß Sie damit den kleinen Kreis, der es „mit dem Leben und seinen
+                    Aufgaben ernst nimmt“, beständig erweitern. Ich gratuliere vom Herzen zu diesem
+                    Erfolg, der ja auch mich fördert. Und so habe ich in mehr <pb facs="XXXX"/>als
+                    einer Hinsicht Ursache, Ihnen dankbar zu sein. Möchte es mir doch vergönnt
+                    werden, Ihnen in nicht allzu ferner Zeit auch mündlich sagen zu können, wie sehr
+                    Ihnen ergeben ist</p>
+                <closer>Ihr <lb/>verehrungsvoller <lb/><signed>Ferdinand von <hi rend="latintype"
+                            >Saar</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>
