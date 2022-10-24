@@ -53,22 +53,18 @@
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
-                                <p style="font-size:18px;line-heigth:27px;">
+                                <p style="font-size:18px;line-heigth:27px;">Folgende Briefe wurden ediert:</p>
                                     
                                  <ul>
-                                     <li></li>
-                                     
-                                     
-                                     <li><a href="">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</a></li>
-                                     
-                                         schoenbach003.xml
-                                     Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888	schoenbach004.xml
-                                     Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898	schoenbach001.xml
-                                     Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888	schoenbach002.xml
-                                     Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911	schoenbach005.xml 
+                                     <li><a href="schoenbach004.xml">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</a></li>
+                                     <li><a href="schoenbach002.xml">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</a></li>
+                                     <li><a href="schoenbach001.xml">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</a></li>
+                                     <li><a href="schoenbach003.xml">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</a></li>
+                                     <li><a href="schoenbach005.xml">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</a></li>	
                                  </ul>
                                 
-                                </p>  
+                                <p>Weitere Informationen zum Splitternachlass Schönbachs findet sich hier.</p>
+                                
                             </div>                          
                         </div>
                     </div>
