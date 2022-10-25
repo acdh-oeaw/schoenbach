@@ -6,10 +6,9 @@
             <titleStmt>
                 <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
                 <title level="a">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</title>
+                <title type="iso-date">1911-09-01</title>
                 <author ref="#pmb11216">Ebner-Eschenbach, Marie von</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                </editor>
+                
             </titleStmt>
             <editionStmt>
                 <edition>Special edition</edition>
