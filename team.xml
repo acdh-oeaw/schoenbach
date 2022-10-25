@@ -15,7 +15,8 @@
     </teiHeader>
     <text>
         <body>
-           <p>Mehrere Personen waren am Entstehen dieser Edition beteiligt:</p>
+           <p>Diese Edition ist ein Gemeinschaftsprojekt von folgenden Forscherinnen und Forschern
+              am ACDH-CH:</p>
            <list>
               <item>Konstanze Fliedl</item>
               <item>Anna Lindner</item>
@@ -26,6 +27,8 @@
            </list>
            <p>Ein besonderer Dank gebührt Stefan Sienell vom Archiv der Österreichischen Akademie der Wissenschaften,
            der uns auf den Bestand aufmerksam machte und die Digitalisate zur Verfügung stellte.</p>
+           <p rend="left"><hi rend="italics">Wien, 14. November 2022</hi></p>
+           
         </body>
     </text>
   </TEI>
