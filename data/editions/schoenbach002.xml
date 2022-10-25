@@ -52,9 +52,6 @@
                     </licence>
                 </availability>
             </publicationStmt>
-            <seriesStmt>
-                <p>XXXX</p>
-            </seriesStmt>
             <sourceDesc>
                 <listWit>
                     <witness n="1">
@@ -135,15 +132,15 @@
                     vernehmen. Ja, nur ein <rs type="place" ref="#pmb41240">Oesterreich</rs>er kann
                     diese kleinen Schöpfungen verstehen und <pb facs="1888-10-30_c"/>genießen – trotz ihrer
                     Mängel und Schwächen. Was nun den Titel des <rs type="work" subtype="implied"
-                        ref="">Buches</rs> betrifft, so muß ich Ihnen nach einiger Überlegung
+                        ref="#pmb78156">Buches</rs> betrifft, so muß ich Ihnen nach einiger Überlegung
                     vollständig Recht geben; zu ändern ist die Sache nicht mehr – leider!
-                    Hinsichtlich der »<rs type="work" ref="">Troglodytin</rs>« möchte ich nur sagen,
+                    Hinsichtlich der »<rs type="work" ref="#pmb118186">Troglodytin</rs>« möchte ich nur sagen,
                     daß nicht der Adjunkt, sondern der alternde, durch das Leben gereifte <hi
                         rend="underline" n="1">Forstmeister</hi> die Geschichte aus der Erinnerung
                     heraus erzählt. <unclear>Demnach</unclear> mag der Ton nicht ganz richtig sein –
                     Sie hätten sonst gewiß nicht das Gefühl davon gehabt. Aber das ist überhaupt die
                     mißliche Seite der »Ich-Geschichten.« –</p>
-                <p>Daß Ihr <rs type="work" subtype="implied" ref="">Buch »über Lesen und
+                <p>Daß Ihr <rs type="work" subtype="implied" ref="#pmb118170">Buch »über Lesen und
                         Bildung«</rs> der dritten Auflage entgegen geht, ist ein höchst erfreulicher
                     Beweis, daß Sie damit den kleinen Kreis, der es »mit dem Leben und seinen
                     Aufgaben ernst nimmt«, beständig erweitern. Ich gratuliere vom Herzen zu diesem

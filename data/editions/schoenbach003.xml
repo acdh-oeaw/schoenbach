@@ -50,27 +50,9 @@
                             Nutzung des Materials entsprechend beschränken.</p>
                     </licence>
                 </availability>
-                <editionStmt>
-                    <edition>Special edition</edition>
-                    <respStmt>
-                        <resp>Transkription und Kommentierung</resp>
-                        <name>Fliedl, Konstanze</name>
-                        <name>Lindner, Anna</name>
-                        <name>Müller, Martin Anton</name>
-                        <name>Untner, Laura</name>
-                    </respStmt>
-                </editionStmt>
+                
             </publicationStmt>
-            <editionStmt>
-                <edition>Special edition</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Fliedl, Konstanze</name>
-                    <name>Lindner, Anna</name>
-                    <name>Müller, Martin Anton</name>
-                    <name>Untner, Laura</name>
-                </respStmt>
-            </editionStmt>
+            
             <sourceDesc>
                 <listWit>
                     <witness n="1">

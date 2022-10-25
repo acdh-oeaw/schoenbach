@@ -43,18 +43,15 @@
                             <li class="nav-item dropdown">
                                 <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Personen" href="listperson.html" class="nav-link">Personen</a>
-                                    </li>
+                                    
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Orte" href="listwork.html" class="nav-link">Werke</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
+                                        <a title="Institutionen" href="listperson.html" class="nav-link">Verlage</a>
                                     </li>
-                                    <div class="dropdown-divider"></div>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a>
+                                        <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
                                     </li>
                                 </ul>                                
                             </li>                            

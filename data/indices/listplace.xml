@@ -5,7 +5,7 @@
                 <title type="main">Ortsverzeichnis</title>
             </titleStmt>
             <publicationStmt>
-                <p />
+                <p/>
             </publicationStmt>
             <sourceDesc>
                 <p>born digital</p>
@@ -16,57 +16,326 @@
         <body>
             <div>
                 <listPlace>
-                    <place xml:id="pmb875">
-                        <placeName>Klagenfurt</placeName>
-                        <location>
-                            <geo decls="LatLng">46.63333 14.3</geo>
-                        </location>
-                        <listEvent>
-                            <event type="mentioned">
-                                <p>erwähnt in <title>Sample File 002</title>
-                                </p>
-                                <linkGrp>
-                                    <link type="ARCHE"
-                                        target="https://id.acdh.oeaw.ac.at/some-radom-string/f_002.xml"/>
-                                </linkGrp>
-                            </event>
-                            <event type="mentioned">
-                                <p>erwähnt in <title>Sample File 003</title>
-                                </p>
-                                <linkGrp>
-                                    <link type="ARCHE"
-                                        target="https://id.acdh.oeaw.ac.at/some-radom-string/f_003.xml"/>
-                                </linkGrp>
-                            </event>
-                        </listEvent>
-                        <idno type="geonames">https://www.geonames.org/2774321/</idno>
-                        <idno type="wikidata">https://www.wikidata.org/wiki/wiki/Q41753/</idno>
-                        <idno type="gnd">https://d-nb.info/gnd/4030921-6/</idno>
-                        <idno type="schnitzler-briefe">
-                            https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb875</idno>
-                        
+                    <place>
+                        <place>
+                            <place xml:id="place__118155">
+                                <placeName>Habrovany</placeName>
+                                <desc type="entity_type"
+                                    >https://www.geonames.org/ontology#P.PPL</desc>
+                                <desc type="entity_type_id">1412</desc>
+                                <location type="coords">
+                                    <geo>50,59857 13,98168</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__43430">Tschechische Republik</placeName>
+                                    <geo>49,75 15,0</geo>
+                                </location>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/118155/</idno>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/3076059/</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="7">Default import collection</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
                     </place>
-                    <place xml:id="pmb41212">
-                        <placeName>Korfu</placeName>
-                        <location>
-                            <geo decls="LatLng">39.598055 19.852222</geo>
-                        </location>
-                        <listEvent>
-                            <event type="mentioned">
-                                <p>erwähnt in <title>Sample File 001</title>
-                                </p>
-                                <linkGrp>
-                                    <link type="ARCHE"
-                                        target="https://id.acdh.oeaw.ac.at/some-radom-string/f_001.xml"/>
-                                </linkGrp>
-                            </event>
-                        </listEvent>
-                        <idno type="geonames">https://www.geonames.org/2463678/</idno>
-                        <idno type="wikidata">https://www.wikidata.org/wiki/wiki/Q121378/</idno>
-                        <idno type="gnd">https://d-nb.info/gnd/4073728-7/</idno>
-                        <idno type="schnitzler-briefe">
-                            https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41212</idno>
-                        
+                    <place>
+                        <place>
+                            <place xml:id="place__100860">
+                                <placeName>Blansko</placeName>
+                                <location type="coords">
+                                    <geo>49,363039 16,644459</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__43430">Tschechische Republik</placeName>
+                                    <geo>49,75 15,0</geo>
+                                </location>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/100860/</idno>
+                                <idno type="URL" subtype="gnd"
+                                    >https://d-nb.info/gnd/4208803-3</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="7">Default import collection</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__50">
+                                <placeName>Wien</placeName>
+                                <placeName type="alternative-name">K.K. Reichshaupt- und
+                                    Residenzstadt Wien</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="alternative-name">Bécs</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="alternative-name">Land Wien</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="alternative-name">Vídeň</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="alternative-name">Wenia</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="alternative-name">Beč</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="alternative-name">Vindobona (Wien)</placeName>
+                                <placeName type="legacy-name-merge">Wien</placeName>
+                                <placeName type="legacy-name-merge">Vindobona</placeName>
+                                <placeName type="alternative-name">Vienna</placeName>
+                                <placeName type="legacy-name-merge">Wien?</placeName>
+                                <placeName type="alternative-name">Vienna</placeName>
+                                <placeName type="legacy-name-merge">Vienna</placeName>
+                                <placeName type="legacy-name-merge">Vienna</placeName>
+                                <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+                                <desc type="entity_type_id">14</desc>
+                                <location type="coords">
+                                    <geo>48,2066 16,37341</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__41240">Österreich</placeName>
+                                    <geo>47,33333 13,33333</geo>
+                                </location>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/2761369/</idno>
+                                <idno type="URL" subtype="gnd"
+                                    >https://d-nb.info/gnd/4066009-6</idno>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                                <idno type="URL" subtype="legalkraus"
+                                    >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >https://www.wikidata.org/entity/Q1741</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="1">ASBW</bibl>
+                                    <bibl type="collections" n="2">Erster Import</bibl>
+                                    <bibl type="collections" n="5">legalkraus</bibl>
+                                    <bibl type="collections" n="7">Default import collection</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__41240">
+                                <placeName>Österreich</placeName>
+                                <placeName type="alternative-name">Republik Österreich</placeName>
+                                <placeName type="legacy-name-merge">Österreich</placeName>
+                                <placeName type="alternative-name">Republik Österreich</placeName>
+                                <placeName type="legacy-name-merge">Österreich</placeName>
+                                <placeName type="alternative-name">Republik Österreich</placeName>
+                                <placeName type="legacy-name-merge">Österreich</placeName>
+                                <placeName type="alternative-name">Republik Österreich</placeName>
+                                <placeName type="legacy-name-merge">Österreich</placeName>
+                                <placeName type="alternative-name">Republik Österreich</placeName>
+                                <placeName type="alternative-name">Republic of Austria</placeName>
+                                <placeName type="legacy-name-merge">Österreich</placeName>
+                                <desc type="entity_type"
+                                    >http://www.geonames.org/ontology#A.PCLI</desc>
+                                <desc type="entity_type_id">1107</desc>
+                                <location type="coords">
+                                    <geo>47,33333 13,33333</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__687">Österreich-Ungarn</placeName>
+                                    <geo>48,4054 16,4887</geo>
+                                </location>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/2782113/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/41240</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+                                <idno type="URL" subtype="legalkraus"
+                                    >https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="2">Erster Import</bibl>
+                                    <bibl type="collections" n="5">legalkraus</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__69">
+                                <placeName>XIX., Döbling</placeName>
+                                <placeName type="legacy-name-merge">Döbling</placeName>
+                                <desc type="entity_type">Bezirk (A.BZK)</desc>
+                                <desc type="entity_type_id">25</desc>
+                                <location type="coords">
+                                    <geo>48,25 16,33306</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__50">Wien</placeName>
+                                    <geo>48,2066 16,37341</geo>
+                                </location>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/2780893/</idno>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/69</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/24723</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="1">ASBW</bibl>
+                                    <bibl type="collections" n="2">Erster Import</bibl>
+                                    <bibl type="collections" n="5">legalkraus</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__860">
+                                <placeName>Graz</placeName>
+                                <placeName type="alternative-name">Grätz (Graz)</placeName>
+                                <placeName type="legacy-name-merge">Graz</placeName>
+                                <placeName type="legacy-name-merge">Graz</placeName>
+                                <placeName type="alternative-name">Graz</placeName>
+                                <placeName type="alternative-name">Graz</placeName>
+                                <placeName type="legacy-name-merge">Graz</placeName>
+                                <placeName type="legacy-name-merge">Graz</placeName>
+                                <placeName type="legacy-name-merge">Graz Stadt</placeName>
+                                <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+                                <desc type="entity_type_id">14</desc>
+                                <location type="coords">
+                                    <geo>47,06667 15,43333</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__41240">Österreich</placeName>
+                                    <geo>47,33333 13,33333</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__17">Steiermark</placeName>
+                                    <geo>47,38 15,7925</geo>
+                                </location>
+                                <idno type="URL" subtype="wikidata"
+                                    >https://www.wikidata.org/wiki/Q13298</idno>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html</idno>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/7871499/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/860</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/42858</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/64211/</idno>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/2778058/</idno>
+                                <idno type="URL" subtype="legalkraus"
+                                    >https://kraus.wienbibliothek.at/register/orte/pmb860</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/90759/</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/93975/</idno>
+                                <idno type="URL" subtype="gnd"
+                                    >https://d-nb.info/gnd/4021912-4</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="1">ASBW</bibl>
+                                    <bibl type="collections" n="2">Erster Import</bibl>
+                                    <bibl type="collections" n="5">legalkraus</bibl>
+                                    <bibl type="collections" n="7">Default import collection</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__118167">
+                                <placeName>Glacisstraße</placeName>
+                                <desc type="entity_type">Straße (K.STR)</desc>
+                                <desc type="entity_type_id">26</desc>
+                                <location type="coords">
+                                    <geo>47,07322 15,44711</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__860">Graz</placeName>
+                                    <geo>47,06667 15,43333</geo>
+                                </location>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/118167/</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="8">manually created entity</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__65192">
+                                <placeName>Zdislavice</placeName>
+                                <desc type="entity_type"
+                                    >https://www.geonames.org/ontology#P.PPL</desc>
+                                <desc type="entity_type_id">1412</desc>
+                                <location type="coords">
+                                    <geo>49,22351 17,26127</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__62137">Troubky-Zdislavice</placeName>
+                                    <geo>49,22756 17,26848</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__43430">Tschechische Republik</placeName>
+                                    <geo>49,75 15,0</geo>
+                                </location>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/65192/</idno>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/3061645/</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="7">Default import collection</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
+                    </place>
+                    <place>
+                        <place>
+                            <place xml:id="place__118164">
+                                <placeName>Borovnice</placeName>
+                                <desc type="entity_type"
+                                    >https://www.geonames.org/ontology#P.PPL</desc>
+                                <desc type="entity_type_id">1412</desc>
+                                <location type="coords">
+                                    <geo>50,50916 15,61719</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__43430">Tschechische Republik</placeName>
+                                    <geo>49,75 15,0</geo>
+                                </location>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
+                                <idno type="URL" subtype="geonames"
+                                    >https://sws.geonames.org/3078943/</idno>
+                                <listBibl>
+                                    <bibl type="collections" n="7">Default import collection</bibl>
+                                </listBibl>
+                            </place>
+                        </place>
                     </place>
                 </listPlace>
             </div>
