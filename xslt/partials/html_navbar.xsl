@@ -11,7 +11,7 @@
                 <div class="container" >
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
-                    <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url">Schönbach-Briefe</a>
+                    <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" itemprop="url">Schönbach-Briefe</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -36,7 +36,7 @@
                                     </li>
                                     <div class="dropdown-divider"></div>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Wikipedia" href="https://de.wikipedia.org/wiki/Anton_Emanuel_Sch%C3%B6nbach" class="nav-link" target="_blank">Schönbach in der Wikipedia</a>
+                                        <a title="Wikipedia" href="https://de.wikipedia.org/wiki/Anton_Emanuel_Sch%C3%B6nbach" class="nav-link" target="_blank">Schönbach (Wikipedia)</a>
                                     </li>
                                 </ul>                                
                             </li>
@@ -45,10 +45,10 @@
                                 <ul class=" dropdown-menu" role="menu">
                                     
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Orte" href="listwork.html" class="nav-link">Werke</a>
+                                        <a title="Werke" href="listwork.html" class="nav-link">Werke</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Institutionen" href="listperson.html" class="nav-link">Verlage</a>
+                                        <a title="Institutionen" href="listorg.html" class="nav-link">Verlage</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
