@@ -29,7 +29,7 @@
                                         <a title="SplitternachlassSchoenbach" href="nachlass.html" class="nav-link">Über den Splitternachlass</a>
                                     </li>
                                     <li>
-                                        <a title="Bericht" href="eroeffnung.html" class="nav-link">Bericht über die Eröffnung</a>
+                                        <a title="Bericht" href="verzeichnis.html" class="nav-link">Verzeichnis</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Team" href="team.html" class="nav-link">Team</a>

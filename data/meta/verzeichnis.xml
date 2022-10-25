@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Verzeichnis der Briefe im Splitternachlass</title>
+            <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Die folgende Aufstellung listet die Briefe und Postkarten von Schriftstellerinnen und Schriftstellern 
+         im Splitternachlass von Anton Emanuel Schönbach. Der Nachlass kam 1920 an die Österreichische Akademie der 
+         Wissenschaften. Er blieb bis 1941 verschlossen und wurde dann geöffnet und eine Beschreibung des
+         Inhalts veröffentlicht. Dieses erste
+         Inventar kann <ref type="url"
+            target="https://shared.acdh.oeaw.ac.at/schoenbach/Nadler-Kralik-1942.pdf"
+            >hier</ref> nachgelesen werden. Die beiden Archivare Klaus Wundsam und Stefan Sienell haben seither drei
+         Revisionen (1987, 2000, 2006) durchgeführt, die hier <ref target="nachlass.xml">einsehbar</ref> ist. Seit 1987 ist der Verlust von sechs Korrespondenzstücken dokumentiert.
+         Weiters wurde die Datierung an fünf Stellen um einen Tag, an einer Stelle um ein Jahr berichtigt. </p>
+         <list>
+            <item>14 Stück von Goswine von Berlepsch<list>
+                  <item>23. August 1904</item>
+                  <item>14. Oktober 1905</item>
+                  <item>6. September 1906</item>
+                  <item>22. Dezember 1906</item>
+                  <item>1. Juni 1908<hi rend="superscript">FEHLT</hi></item>
+                  <item>26. Dezember 1908</item>
+                  <item>21. Februar 1909</item>
+                  <item>14. März 1909</item>
+                  <item>7. Mai 1909</item>
+                  <item>18. Dezember 1909</item>
+                  <item>4. Mai 1910</item>
+                  <item>30. Dezember 1910</item>
+                  <item>9. August [....]<hi rend="superscript">FEHLT</hi></item>
+                  <item>29. August 1911 (an die Witwe Schönbachs)</item>
+               </list></item>
+            <item>1 Brief von Karl Bienenstein vom 21. Mai 1897.</item>
+            <item>1 Brief von Marie von Ebner-Eschenbach (an die Witwe Schönbachs) vom <ref
+                  target="schoenbach005.xml">1. September 1911</ref>.</item>
+            <item>2 Briefe von Wilhelm Fischer vom <list>
+                  <item>29. Januar 1902</item>
+                  <item>25. Mai 1908</item>
+               </list></item>
+            <item>1 Brief von Marie von Gilm vom 20. Dezember 1888.</item>
+            <item>1 Brief von Ottokar Kernstock vom 28. Oktober 1901.</item>
+            <item>7 Briefe und 3 Karten von Karl Müllenhoff an Schönbach <list>
+                  <item>22. Dezember 1872</item>
+                  <item>16. Februar 1873</item>
+                  <item>22.,Juni 1873</item>
+                  <item>22. November 1873</item>
+                  <item>23.Dezember 1873</item>
+               <item>9. November 1874<hi rend="superscript">FEHLT</hi></item>
+               <item>9. Februar 1876<hi rend="superscript">FEHLT</hi></item>
+                  <item>13. Oktober 1876</item>
+               <item>9. Dezember 1876<hi rend="superscript">FEHLT</hi></item>
+                  <item>13. August 1880</item>
+                  <item>1 Brief von der Witwe Müllenhoffs, worin sie für die von Schönbach auf
+                     Müllenhoff gehaltene Gedenkrede dankt</item>
+               </list>
+            </item>
+            <item>21 Briefe und 4 Telegramme von Schönbach an Karl Müllenhoff<list>
+                  <item>19. Januar 1872</item>
+                  <item>10. September 1872</item>
+                  <item>17. Dezember 1872</item>
+                  <item>17. Februar 1873</item>
+                  <item>12. Mai 1873</item>
+                  <item>15. Juni 1873</item>
+                  <item>7. September 1873</item>
+                  <item>24. November 1873</item>
+                  <item>16. Dezember 1873</item>
+                  <item>12. November 1874</item>
+                  <item>ein nicht näher datierbares Telegramm vom Jahre 1874</item>
+                  <item>31. Mai 1875</item>
+                  <item>7. Februar 1876</item>
+                  <item>5. September 1876</item>
+                  <item>9. Oktober 1876</item>
+                  <item>17. Oktober 1876</item>
+                  <item>5. Dezember 1876</item>
+                  <item>23. Dezember 1876</item>
+                  <item>Neujahr 1877</item>
+                  <item>28. März 1878</item>
+                  <item>8. September 1878</item>
+                  <item>16. Januar 1879</item>
+                  <item>19. Juli 1880</item>
+                  <item>9. Dezember 1880</item>
+                  <item>24. Dezember 1881</item>
+               </list></item>
+            <item>4 Briefe von Peter Rosegger <list>
+                  <item>21. Oktober 1903</item>
+                  <item>16. Oktober 1904</item>
+                  <item>3. November 1904</item>
+                  <item>27. Mai 1908</item>
+               </list></item>
+            <item>5 Briefe von Ferdinand von Saar <list>
+                  <item><ref target="schoenbach004.xml">3. Januar 1888</ref></item>
+                  <item><ref target="schoenbach002.xml">30. 10. 1888</ref></item>
+                  <item><ref target="schoenbach001.xml">3. 12. 1898</ref></item>
+                  <item>31. Dezember 1903<hi rend="superscript">FEHLT</hi></item>
+                  <item><ref target="schoenbach003.xml">20. 10. 1905</ref></item>
+               </list></item>
+            <item>4 Briefe von Ludwig Steub <list>
+                  <item>29. Juni 1882</item>
+                  <item>6. Juli 1882</item>
+                  <item>5. November 1883</item>
+                  <item>29. April 1885</item>
+               </list></item>
+            <item>1 Brief von Karl Stieler vom 22. November 1881</item>
+         </list>
+         
+      </body>
+   </text>
+</TEI>
