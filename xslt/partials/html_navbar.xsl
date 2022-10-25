@@ -26,11 +26,12 @@
                                         <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
                                     </li>
                                     <li>
-                                        <a title="SplitternachlassSchoenbach" href="nachlass.html" class="nav-link">Über den Splitternachlass</a>
-                                    </li>
-                                    <li>
                                         <a title="Bericht" href="verzeichnis.html" class="nav-link">Verzeichnis</a>
                                     </li>
+                                    <li>
+                                        <a title="SplitternachlassSchoenbach" href="nachlass.html" class="nav-link">Archivalische Beschreibung</a>
+                                    </li>
+                                    
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Team" href="team.html" class="nav-link">Team</a>
                                     </li>
@@ -58,7 +59,7 @@
                                     </li>
                                 </ul>                                
                             </li>                            
-                            <!--<li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>-->
+                            <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Briefe</a></li>
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
