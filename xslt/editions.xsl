@@ -99,7 +99,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body-normalertext" data-index="true">
+                            <div class="card-body-text" data-index="true">
                                 <xsl:apply-templates select=".//tei:body"/>
                                 <xsl:if test="descendant::tei:footNote">
                                     <p/>
@@ -150,7 +150,7 @@
                                         pinchRotate: true}
                                         });
                                     </script>
-                                    <div class="image-rights">
+                                    <!--<div class="image-rights">
                                         <xsl:text>Bildrechte © </xsl:text>
                                         <xsl:value-of
                                             select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:repository[1]"/>
@@ -158,10 +158,9 @@
                                         <xsl:value-of
                                             select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:settlement[1]"
                                         />
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
-                            
                             <div class="card-body-anhang" id="bottom">
                                 <div class="card-body-anhang text-muted">
                                     <div id="srcbuttons" style="text-align:center">

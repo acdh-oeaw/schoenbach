@@ -6,10 +6,9 @@
             <titleStmt>
                 <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
                 <title level="a">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</title>
+                <title type="iso-date">1888-10-30</title>
                 <author ref="#pmb12602">Saar, Ferdinand von</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                </editor>
+                
             </titleStmt>
             <editionStmt>
                 <edition>Special edition</edition>
