@@ -112,6 +112,56 @@
                                     </xsl:element>
                                 </xsl:if>
                             </div>
+                            <div class="card-body-iif">
+                                <xsl:variable name="facsimiles">
+                                    <xsl:value-of
+                                        select="distinct-values(descendant::tei:pb[not(starts-with(@facs, 'http') or starts-with(@facs, 'www.') or @facs = '' or empty(@facs)) and not(preceding-sibling::tei:tp/@facs = @facs) or (not(@facs))]/@facs)"
+                                    />
+                                </xsl:variable>
+                                <xsl:variable name="url-of-facsimile">
+                                    <xsl:for-each select="tokenize($facsimiles, ' ')">
+                                        <xsl:text>"https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/</xsl:text>
+                                        <xsl:value-of select="."/>
+                                        <xsl:text>.jp2/info.json"</xsl:text>
+                                        <xsl:if test="not(position() = last())">
+                                            <xsl:text>, </xsl:text>
+                                        </xsl:if>
+                                    </xsl:for-each>
+                                </xsl:variable>
+                                <div id="openseadragon-photo" style="height:800px;">
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/openseadragon.min.js"/>
+                                    <script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/images/",
+                                        sequenceMode : true,
+                                        showNavigationControl: true,
+                                        showReferenceStrip: true,
+                                        defaultZoomLevel : 0,
+                                        fitHorizontally : true,
+                                        tileSources: [<xsl:value-of select="$url-of-facsimile"/>],
+                                        // Initial rotation angle
+                                        degrees: 0,
+                                        // Show rotation buttons
+                                        showRotationControl: true,
+                                        // Enable touch rotation on tactile devices
+                                        gestureSettingsTouch: {
+                                        pinchRotate: true}
+                                        });
+                                    </script>
+                                    <div class="image-rights">
+                                        <xsl:text>Bildrechte © </xsl:text>
+                                        <xsl:value-of
+                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:repository[1]"/>
+                                        <xsl:text>, </xsl:text>
+                                        <xsl:value-of
+                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:settlement[1]"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            
                             <div class="card-body-anhang" id="bottom">
                                 <div class="card-body-anhang text-muted">
                                     <div id="srcbuttons" style="text-align:center">
@@ -471,13 +521,13 @@
                                                 <div class="card-body-anhang">
                                                   <div class="kommentarhang">
                                                   <legend>Verschiedenes</legend>
-                                                  <h4>Zitiervorschlag</h4>
+                                                  <!--<h4>Zitiervorschlag</h4>
                                                   <p><xsl:value-of select="$doc_title"/>. In:
                                                   Hermann Bahr, Arthur Schnitzler: Briefwechsel,
                                                   Aufzeichnungen, Dokumente (1891–1931). Digitale
                                                   Edition Hg. Kurt Ifkovits, Martin Anton Müller,
                                                   (Stand <xsl:value-of select="$currentDate"/>) 
-                                                  <xsl:value-of select="$handle"/>.</p>
+                                                  <xsl:value-of select="$handle"/>.</p>-->
                                                   <h4>Quellcode</h4>
                                                   <p>Code als <a class="ml-3" data-toggle="tooltip"
                                                   title="Link zur TEI-Datei">

@@ -130,25 +130,25 @@
         <body>
             <div type="address">
                 <address>
-                    <addrLine><pb facs="XXXX"/>Hochwohlgeboren</addrLine>
+                    <addrLine><pb facs="Ebner-Eschenbach_00001"/>Hochwohlgeboren</addrLine>
                     <addrLine>Frau Hofrat Anna Schönbach</addrLine>
                     <addrLine><rs type="place" ref="#pmb860">Graz</rs></addrLine>
                     <addrLine><rs type="place" ref="#pmb118167">Glacisstraße 9</rs>.</addrLine>
                 </address>
             </div>
             <div type="writingSession" n="1">
-                <opener><dateline rend="right"><pb facs="XXXX"/><rs type="place" ref="#pmb65192"
+                <opener><dateline rend="right"><pb facs="Ebner-Eschenbach_00003"/><rs type="place" ref="#pmb65192"
                             >Zdisslawita Post Zdounek Mähren</rs><space unit="chars" quantity="1"
                             /><date when="1911-09-01">1. Sept. 911</date>.</dateline>
                     <salute rend="left">Hochverehrte teure Frau!</salute></opener>
                 <p>Auf das Tiefste ergriffen durch die eben empfangene Trauerbotschaft des Todes
                     Ihres edlen <rs type="person" ref="#pmb3330">Gatten</rs>, erlaube ich mir, Ihnen
                     mein wärmstes Beileid, mein innigstes Mitgefühl auszusprechen. Er stand auf der
-                    Höhe <pb facs="XXXX"/>seines reichen Lebens, wir waren stolz auf ihn, er war uns
+                    Höhe <pb facs="Ebner-Eschenbach_00004"/>seines reichen Lebens, wir waren stolz auf ihn, er war uns
                     Lehrer und Führer und für so viele ein Vorbild.</p>
                 <p>Wer würde nach einem Verluste wie den, den Sie erleiden, von Trost sprechen
                     dürfen und wer würde es wagen ihn spenden zu wollen? So wiederhole ich denn nur,
-                    hochverehrte teure Frau: Zu den Tausenden, die mit Ihnen <pb facs="XXXX"
+                    hochverehrte teure Frau: Zu den Tausenden, die mit Ihnen <pb facs="Ebner-Eschenbach_00005"
                     />trauern aus vollem Herzen, in Ehrfurcht und Dankbarkeit, zählt auch</p>
                 <closer>Ihre ergebene <lb/><signed>Marie Ebner-Eschenbach</signed></closer>
             </div>

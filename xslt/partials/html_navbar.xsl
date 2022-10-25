@@ -12,7 +12,6 @@
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><xsl:text>Schönbach-Briefe</xsl:text></a>
-                    <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -62,7 +61,7 @@
                             <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Briefe</a></li>
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
-                            <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
+                            <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Suche" value="" autocomplete="off" />
                             <button type="submit" class="navbar-search-icon">
                                 <i data-feather="search"></i>
                             </button>
