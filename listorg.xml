@@ -16,44 +16,38 @@
         <body>
             <div>
                 <listOrg>
-                    <org xml:id="pmb29244">
-                        <orgName>Allgemeine Bodencreditanstalt</orgName>
-                        <place corresp="pmb51">
-                            <placeName>I., Innere Stadt</placeName>
-                            <location>
-                                <geo decls="LatLng">48.20769 16.37049</geo>
-                            </location>
-                        </place>
-                        <idno type="schnitzler-briefe">
-                            https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29244</idno>
-                        <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29244</idno>
-                        <listEvent>
-                            <event type="mentioned">
-                                <p>erwähnt in <title>Arthur an Olga Schnitzler, 7. 9. 1919</title>
-                                </p>
-                                <linkGrp>
-                                    <link type="ARCHE"
-                                        target="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041652.xml" />
-                                </linkGrp>
-                            </event>
-                            <event type="mentioned">
-                                <p>erwähnt in <title>Olga an Arthur Schnitzler, 13. 9. 1919</title>
-                                </p>
-                                <linkGrp>
-                                    <link type="ARCHE"
-                                        target="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041663.xml" />
-                                </linkGrp>
-                            </event>
-                            <event type="mentioned">
-                                <p>erwähnt in <title>Arthur Schnitzler: Max Burckhard, April 1912</title>
-                                </p>
-                                <linkGrp>
-                                    <link type="ARCHE"
-                                        target="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030081.xml" />
-                                </linkGrp>
-                            </event>
-                        </listEvent>
+                    <org xml:id="pmb118175">
+                        <orgName>Georg Weiß Verlag</orgName>
+                        <desc type="entity_type">Verlag</desc>
+                        <desc type="entity_type_id">975</desc>
+                        <location type="located_in_place">
+                            <placeName key="place__882">Heidelberg</placeName>
+                            <geo>49,40768 8,69079</geo>
+                            <note type="IDNO" subtype="wikidata">https://www.wikidata.org/wiki/Q2966</note>
+                            <note type="IDNO" subtype="geonames">https://sws.geonames.org/2907911/</note>
+                            <note type="IDNO" subtype="gnd">https://d-nb.info/gnd/4023996-2</note>
+                            <note type="IDNO" subtype="schnitzler-bahr">
+                                https://schnitzler-bahr.acdh.oeaw.ac.at/pmb882.html
+                            </note>
+                            <note type="IDNO" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/882</note>
+                            <note type="IDNO" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39760</note>
+                            <note type="IDNO" subtype="schnitzler-briefe">
+                                https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb882
+                            </note>
+                            <note type="IDNO" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64161/</note>
+                            <note type="IDNO" subtype="schnitzler-tagebuch">
+                                https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb882.html
+                            </note>
+                        </location>
+                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118175/</idno>
+                        <listBibl>
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </listBibl>
+                        <note type="apis_dates">
+                            <date when-iso="1891-07-02" notAfter-iso="1891-12-31">1891</date>
+                        </note>
                     </org>
+                   
                 </listOrg>
             </div>
         </body>

@@ -1,4 +1,0 @@
-#FORMAT: BEACON
-#NAME:Briefe aus dem Nachlass von Anton Emanuel Schönbach
-https://d-nb.info/gnd/11864193X/|Rétif de la Bretonne, Nicolas|https://schoenbach.acdh.oeaw.ac.at/pmb3978.html
-https://d-nb.info/gnd/1014062276/|Reumann, Jakob|https://schoenbach.acdh.oeaw.ac.at/pmb12511.html

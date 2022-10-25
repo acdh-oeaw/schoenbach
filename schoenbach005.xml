@@ -8,7 +8,6 @@
                 <title level="a">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</title>
                 <title type="iso-date">1911-09-01</title>
                 <author ref="#pmb11216">Ebner-Eschenbach, Marie von</author>
-                
             </titleStmt>
             <editionStmt>
                 <edition>Special edition</edition>
@@ -93,8 +92,7 @@
                                     </incident>
                                     <incident type="archival">
                                         <desc>Umschlag mit Bleistift von unbekannter Hand
-                                            beschriftet: »<quote><rs type="person" ref="#pmb11216"
-                                                  >Ebner-Eschenbach</rs></quote>«</desc>
+                                            beschriftet: »<quote>Ebner-Eschenbach</quote>«</desc>
                                     </incident>
                                 </additions>
                             </physDesc>

@@ -1,0 +1,72 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Werkverzeichnis</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listBibl>
+                    <bibl xml:id="pmb118173">
+                        <title type="main">Gedichte. 2. durchgesehene und vermehrte Auflage</title>
+                        <title type="werk_link">
+                            http://www.zeno.org/Literatur/M/Saar,+Ferdinand+von/Gedichte/Gedichte
+                        </title>
+                        <author key="person__12602" role="hat-geschaffen">Saar, Ferdinand von</author>
+                        <date notBefore-iso="1888-01-01" when-iso="1888-07-01">1888</date>
+                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118173/</idno>
+                        <note type="collections">
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </note>
+                        <note type="work_kind">Gedichtsammlung</note>
+                    </bibl>
+                    <bibl xml:id="pmb78156">
+                        <title type="main">Schicksale. Drei Novellen</title>
+                        <title type="werk_bibliografische-angabe">Schicksale. Drei Novellen. Heidelberg 1889.</title>
+                        <author key="person__12602" role="hat-geschaffen">Saar, Ferdinand von</author>
+                        <date from-iso="1889-01-01" to-iso="1889-12-31">1889 – 1889</date>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78156/</idno>
+                        <idno type="URL" subtype="schnitzler-lektueren">
+                            https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78156.html
+                        </idno>
+                        <note type="collections">
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </note>
+                        <note type="work_kind">Novellensammlung</note>
+                    </bibl>
+                    <bibl xml:id="pmb118186">
+                        <title type="main">Die Troglodytin</title>
+                        <author key="person__12602" role="hat-geschaffen">Saar, Ferdinand von</author>
+                        <date when-iso="1888-08-01">1888-08-01</date>
+                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118186/</idno>
+                        <note type="collections">
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </note>
+                        <note type="work_kind">Novelle</note>
+                    </bibl>
+                    <bibl xml:id="pmb118170">
+                        <title type="main">Über Lesen und Bildung. Umschau und Ratschläge</title>
+                        <title type="werk_link">https://books.google.at/books?id=HyR2LAo51vwC</title>
+                        <author key="person__3330" role="hat-geschaffen">Schönbach, Anton Emanuel</author>
+                        <date notBefore-iso="1888-01-01" when-iso="1888-07-01">1888</date>
+                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118170/</idno>
+                        <note type="collections">
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </note>
+                        <note type="work_kind">Rezension >> Sammelrezension</note>
+                    </bibl>
+                    
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
