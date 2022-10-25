@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a><nav class="navbar navbar-expand-lg navbar-light">
-               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schoenbach/schoenbach-logo.jpg" class="img-fluid" title="schoenbach" alt="schoenbach" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="schoenbach" itemprop="url">Schönbach-Briefe</a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schoenbach/schoenbach-logo.jpg" class="img-fluid" title="schoenbach" alt="schoenbach" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="schoenbach" itemprop="url">Schönbach-Briefe</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav">
                         <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
                               <li class="nav-item dropdown-submenu"><a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a></li>
@@ -37,7 +37,7 @@
                         </li>
                         <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Briefe</a></li>
                      </ul>
-                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" /><button type="submit" class="navbar-search-icon"><i data-feather="search"></i></button></form>
+                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Suche" value="" autocomplete="off" /><button type="submit" class="navbar-search-icon"><i data-feather="search"></i></button></form>
                   </div>
                </div>
             </nav>
@@ -86,6 +86,29 @@
                         <span class="latintype">Saar</span>.</div>
                      </div>
                   </div>
+               <div class="card-body-iif">
+                  <div id="openseadragon-photo" style="height:800px;"><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/images/",
+                                        sequenceMode : true,
+                                        showNavigationControl: true,
+                                        showReferenceStrip: true,
+                                        defaultZoomLevel : 0,
+                                        fitHorizontally : true,
+                                        tileSources: ["https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1888-01-03_a.jp2/info.json", "https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1888-01-03_b.jp2/info.json"],
+                                        // Initial rotation angle
+                                        degrees: 0,
+                                        // Show rotation buttons
+                                        showRotationControl: true,
+                                        // Enable touch rotation on tactile devices
+                                        gestureSettingsTouch: {
+                                        pinchRotate: true}
+                                        });
+                                    </script><div class="image-rights">Bildrechte © Österreichische Akademie der Wissenschaften, Wien</div>
+                  </div>
+               </div>
                <div class="card-body-anhang" id="bottom">
                   <div class="card-body-anhang text-muted">
                      <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"> ANHANG </a></div>
@@ -169,13 +192,6 @@
                               <div class="card-body-anhang">
                                  <div class="kommentarhang">
                                     <legend>Verschiedenes</legend>
-                                    <h4>Zitiervorschlag</h4>
-                                    <p>Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888. In:
-                                       Hermann Bahr, Arthur Schnitzler: Briefwechsel,
-                                       Aufzeichnungen, Dokumente (1891–1931). Digitale
-                                       Edition Hg. Kurt Ifkovits, Martin Anton Müller,
-                                       (Stand 25. 10. 2022) 
-                                       .</p>
                                     <h4>Quellcode</h4>
                                     <p>Code als <a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="S004.xml"><i class="fa-lg far fa-file-code"></i> TEI </a></p>
                                     <h4>correspSearch</h4>
