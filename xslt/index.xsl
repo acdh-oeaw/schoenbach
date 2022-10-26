@@ -78,7 +78,7 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
-                                                <i class="fas fa-user-friends"></i> Erwähnte Werke
+                                                <i class="fa-solid fa-books"></i> Erwähnte Werke
                                             </h3>                                            
                                         </div>
                                     </div>                                     
@@ -102,7 +102,7 @@
                                 <a href="listorg.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
-                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/" class="d-block w-100" alt="..."/>
+                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/verlage.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
