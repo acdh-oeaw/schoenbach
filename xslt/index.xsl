@@ -71,14 +71,14 @@
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="listperson.html" class="index-link">                                   
+                                <a href="listwork.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
-                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/werke.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
-                                                <i class="fas fa-user-friends"></i> Personenregister
+                                                <i class="fas fa-user-friends"></i> Erwähnte Werke
                                             </h3>                                            
                                         </div>
                                     </div>                                     
@@ -88,25 +88,25 @@
                                 <a href="listplace.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
-                                            <img src="dist/fundament/images/example-img-2.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/orte.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
-                                                <i class="fas fa-map-marker-alt"></i> Ortsregister
+                                                <i class="fas fa-map-marker-alt"></i> Erwähnte Orte
                                             </h3>                                            
                                         </div>
                                     </div>                                     
                                 </a>                                    
                             </div>
                             <div class="col-md-4">
-                                <a href="listwork.html" class="index-link">                                   
+                                <a href="listorg.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
-                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
-                                                <i class="fas fa-university"></i>  Werksregister
+                                                <i class="fas fa-university"></i>  Erwähnter Verlag
                                             </h3>                                            
                                         </div>
                                     </div>                                     
