@@ -65,16 +65,9 @@
                                         </xsl:variable>
                                         <xsl:choose>
                                             <xsl:when test="$autor-ref = 'pmb2121'">
-                                                <a href="pmb2121.html">
                                                   <xsl:text>Arthur Schnitzler</xsl:text>
-                                                </a>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($autor-ref, '.html')"
-                                                  />
-                                                  </xsl:attribute>
                                                   <xsl:choose>
                                                   <xsl:when
                                                   test="child::tei:forename and child::tei:surname">
@@ -96,7 +89,7 @@
                                                   <xsl:value-of select="."/>
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                </a>
+                                                
                                                 <xsl:if test="@role = 'editor'">
                                                   <xsl:text> (Herausgabe)</xsl:text>
                                                 </xsl:if>
@@ -141,15 +134,9 @@
                             </xsl:variable>
                             <xsl:choose>
                                 <xsl:when test="$autor-ref = 'pmb2121'">
-                                    <a href="pmb2121.html">
                                         <xsl:text>Arthur Schnitzler</xsl:text>
-                                    </a>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="concat($autor-ref, '.html')"/>
-                                        </xsl:attribute>
                                         <xsl:choose>
                                             <xsl:when
                                                 test="child::tei:forename and child::tei:surname">
@@ -171,7 +158,7 @@
                                                 <xsl:value-of select="tei:author[1]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                    </a>
+                                    
                                     <xsl:if test="@role = 'editor'">
                                         <xsl:text> (Herausgabe)</xsl:text>
                                     </xsl:if>
