@@ -20,8 +20,7 @@
                     <xsl:choose>
                         <xsl:when test="$abbr = 'wikidata'">
                             <xsl:variable name="wikipediaVSdata"
-                                select="mam:wikidata2wikipedia($current-idno)"
-                                as="xs:string"/>
+                                select="mam:wikidata2wikipedia($current-idno)" as="xs:string"/>
                             <xsl:attribute name="href">
                                 <xsl:value-of select="$wikipediaVSdata"/>
                             </xsl:attribute>
@@ -48,19 +47,17 @@
                         </xsl:when>
                         <xsl:when test="$abbr = 'pmb'">
                             <xsl:variable name="pmb-entitytype" as="xs:string">
-                                <xsl:value-of
-                                    select="tokenize($idnos-of-current/name(), '_')[2]"/>
+                                <xsl:value-of select="tokenize($idnos-of-current/name(), '_')[2]"/>
                             </xsl:variable>
                             <xsl:variable name="pmb-number" as="xs:string">
                                 <xsl:choose>
                                     <xsl:when test="ends-with($current-idno, '/')">
                                         <xsl:value-of
-                                            select="tokenize($current-idno, '/')[last() - 1]"
-                                        />
+                                            select="tokenize($current-idno, '/')[last() - 1]"/>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of
-                                            select="tokenize($current-idno, '/')[last()]"/>
+                                        <xsl:value-of select="tokenize($current-idno, '/')[last()]"
+                                        />
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
@@ -82,27 +79,27 @@
                             </xsl:attribute>
                         </xsl:otherwise>
                     </xsl:choose>
-                <xsl:element name="span">
-                    <xsl:attribute name="class">
-                        <xsl:text>badge rounded-pill bg-success</xsl:text>
-                    </xsl:attribute>
-                    <xsl:attribute name="style">
-                        <xsl:text>background-color: </xsl:text>
-                        <xsl:choose>
-                            <xsl:when test="$uri-color">
-                                <xsl:value-of select="$uri-color"
-                                /><xsl:text>;</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>black; </xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:text> color: white</xsl:text>
-                    </xsl:attribute>
-                    <xsl:value-of select="./caption"/>
-                </xsl:element>  
-                    
+                    <xsl:element name="span">
+                        <xsl:attribute name="class">
+                            <xsl:text>badge rounded-pill</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="style">
+                            <xsl:text>background-color: </xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="$uri-color">
+                                    <xsl:value-of select="$uri-color"/>
+                                    <xsl:text>;</xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>black; </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text> color: white</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="./caption"/>
+                    </xsl:element>
                 </xsl:element>
+                <xsl:text> </xsl:text>
             </xsl:if>
         </xsl:for-each>
         <xsl:for-each select="$relevant-uris/descendant::item[@type = 'print-online']">
@@ -111,37 +108,34 @@
                 <xsl:variable name="current-idno" as="node()"
                     select="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]"/>
                 <xsl:variable name="uri-color" select="child::color" as="xs:string?"/>
-                
-                
-                        <xsl:element name="a">
-                            
-                            
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="child::url"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:element name="span">
-                                <xsl:attribute name="class">
-                                    <xsl:text>badge rounded-pill bg-success</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="style">
-                                    <xsl:text>background-color: </xsl:text>
-                                    <xsl:choose>
-                                        <xsl:when test="$uri-color">
-                                            <xsl:value-of select="$uri-color"
-                                            /><xsl:text>; </xsl:text>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:text>black; </xsl:text>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                    <xsl:text> color: white</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="./caption"/>
-                            </xsl:element>  
-                        </xsl:element>
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="child::url"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="target">
+                        <xsl:text>_blank</xsl:text>
+                    </xsl:attribute>
+                    <xsl:element name="span">
+                        <xsl:attribute name="class">
+                            <xsl:text>badge rounded-pill</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="style">
+                            <xsl:text>background-color: </xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="$uri-color">
+                                    <xsl:value-of select="$uri-color"/>
+                                    <xsl:text>; </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>black; </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text> color: white</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="./caption"/>
+                    </xsl:element>
+                </xsl:element>
+                <xsl:text> </xsl:text>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
