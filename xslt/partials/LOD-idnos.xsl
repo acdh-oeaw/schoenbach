@@ -12,6 +12,7 @@
         <xsl:param name="idnos-of-current" as="node()"/>
         <xsl:for-each select="$relevant-uris/descendant::item[not(@type)]">
             <xsl:variable name="abbr" select="child::abbr"/>
+            <xsl:variable name="uri-color" select="child::color" as="xs:string?"/>
             <xsl:if test="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]">
                 <xsl:variable name="current-idno" as="node()"
                     select="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]"/>
@@ -24,18 +25,22 @@
                             <xsl:text>badge rounded-pill bg-success</xsl:text>
                         </xsl:attribute>
                         <xsl:attribute name="style">
+                            <xsl:text>background-color: </xsl:text>
                             <xsl:choose>
-                                <xsl:when test="child::color">
-                                    <xsl:value-of select="concat('background-color:', child::color)"
+                                <xsl:when test="$uri-color">
+                                    <xsl:value-of select="$uri-color"
                                     />
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:text>background-color: black</xsl:text>
+                                    <xsl:text>black</xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
                             <xsl:text> color: white</xsl:text>
                         </xsl:attribute>
                         <xsl:element name="a">
+                            <xsl:attribute name="style">
+                                <xsl:text> color: white</xsl:text>
+                            </xsl:attribute>
                             <xsl:choose>
                                 <xsl:when test="$abbr = 'wikidata'">
                                     <xsl:variable name="wikipediaVSdata"
@@ -113,6 +118,7 @@
             <xsl:if test="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]">
                 <xsl:variable name="current-idno" as="node()"
                     select="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]"/>
+                <xsl:variable name="uri-color" select="child::color" as="xs:string?"/>
                 <xsl:element name="span">
                     <xsl:attribute name="class">
                         <xsl:text>idno</xsl:text>
@@ -121,18 +127,21 @@
                         <xsl:attribute name="class">
                             <xsl:text>badge rounded-pill bg-success</xsl:text>
                         </xsl:attribute>
-                        <xsl:attribute name="style">
-                            <xsl:choose>
-                                <xsl:when test="child::color">
-                                    <xsl:value-of select="concat('background-color:', child::color)"
-                                    />
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:text>background-color: black</xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="$uri-color">
+                                        <xsl:value-of select="$uri-color"
+                                        />
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>black</xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                                <xsl:text> color: white</xsl:text>
+                            </xsl:attribute>
                             <xsl:text> color: white</xsl:text>
-                        </xsl:attribute>
+                        
                         <xsl:element name="a">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="child::url"/>

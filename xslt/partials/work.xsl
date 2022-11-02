@@ -176,14 +176,21 @@
             </div>
                 <div id="erscheinungsdatum" class="mt-2">
                     <p>
-                        <xsl:if test="tei:date">
+                        <xsl:if test="tei:date[1]">
                             <legend>Erschienen</legend>
                             <xsl:choose>
-                                <xsl:when test="substring-before(tei:date, ' – ') = substring-after(tei:date, ' – ')">
-                                    <xsl:value-of select="mam:normalize-date(substring-before(tei:date, ' – '))"/>
+                                <xsl:when test="contains(tei:date[1], '–')">
+                                    <xsl:choose>
+                                        <xsl:when test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
+                                            <xsl:value-of select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="mam:normalize-date(normalize-space(tei:date[1]))"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:value-of select="mam:normalize-date(tei:date)"/>
+                                    <xsl:value-of select="mam:normalize-date(tei:date[1])"/>
                                 </xsl:otherwise>
                             </xsl:choose>
                             <xsl:if test="not(ends-with(tei:date[1], '.'))">
@@ -217,7 +224,7 @@
                                     </a>
                                 </li>
                             </xsl:for-each>
-                        </ul>
+                        </ul>c
                     </span>
                 </div>
             </xsl:if>
