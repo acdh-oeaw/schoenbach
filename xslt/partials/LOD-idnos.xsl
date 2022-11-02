@@ -81,7 +81,6 @@
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
                             </xsl:attribute>
-                            <xsl:value-of select="./caption"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 <xsl:element name="button">
@@ -101,7 +100,7 @@
                         </xsl:choose>
                         <xsl:text> color: white</xsl:text>
                     </xsl:attribute>
-                        
+                    <xsl:value-of select="./caption"/>
                 </xsl:element>  
                     
                 </xsl:element>
