@@ -72,7 +72,6 @@
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
                             </xsl:attribute>
-                            <xsl:value-of select="./caption"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:attribute name="href">
@@ -83,7 +82,7 @@
                             </xsl:attribute>
                         </xsl:otherwise>
                     </xsl:choose>
-                <xsl:element name="button">
+                <xsl:element name="span">
                     <xsl:attribute name="class">
                         <xsl:text>badge rounded-pill bg-success</xsl:text>
                     </xsl:attribute>
@@ -115,29 +114,15 @@
                 
                 
                         <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>badge rounded-pill bg-success</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>background-color: </xsl:text>
-                                <xsl:choose>
-                                    <xsl:when test="$uri-color">
-                                        <xsl:value-of select="$uri-color"
-                                        />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:text>black</xsl:text>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                                <xsl:text> color: white</xsl:text>
-                            </xsl:attribute>
+                            
+                            
                             <xsl:attribute name="href">
                                 <xsl:value-of select="child::url"/>
                             </xsl:attribute>
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
                             </xsl:attribute>
-                            <xsl:element name="button">
+                            <xsl:element name="span">
                                 <xsl:attribute name="class">
                                     <xsl:text>badge rounded-pill bg-success</xsl:text>
                                 </xsl:attribute>
