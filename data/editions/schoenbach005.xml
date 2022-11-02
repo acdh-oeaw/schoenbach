@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xml:id="S005">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
-                <title level="a">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</title>
-                <title type="iso-date">1911-09-01</title>
-                <author ref="#pmb11216">Ebner-Eschenbach, Marie von</author>
-            </titleStmt>
-            <editionStmt>
-                <edition>Special edition</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Fliedl, Konstanze</name>
-                    <name>Lindner, Anna</name>
-                    <name>Müller, Martin Anton</name>
-                    <name>Untner, Laura</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date when="2022">2022</date>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
-                        <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="schoenbach005">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Fünf Briefe aus dem Nachlass von Anton Emanuel Schönbach</title>
+            <title level="a">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</title>
+            <title type="iso-date">1911-09-01</title>
+            <author ref="#pmb11216">Ebner-Eschenbach, Marie von</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Special edition</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Fliedl, Konstanze</name>
+               <name>Lindner, Anna</name>
+               <name>Müller, Martin Anton</name>
+               <name>Untner, Laura</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
                             vervielfältigen und weiterverbreiten Bearbeiten — das Material remixen,
                             verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar
                             kommerziell.</p>
-                        <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich
                             an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
-                        <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen,
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen,
                             einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen
                             wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht
                             werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber
@@ -39,8 +40,8 @@
                             Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische
                             Verfahren einsetzen, die anderen rechtlich irgendetwas untersagen, was
                             die Lizenz erlaubt.</p>
-                        <p>Hinweise:</p>
-                        <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile
                             des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen
                             durch Ausnahmen und Schranken des Urheberrechts gedeckt sind. Es werden
                             keine Garantien gegeben und auch keine Gewähr geleistet. Die Lizenz
@@ -48,107 +49,280 @@
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
                             Nutzung des Materials entsprechend beschränken.</p>
-                    </licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>Ö</country>
-                                <settlement>Wien</settlement>
-                                <repository>Österreichische Akademie der Wissenschaften</repository>
-                                <idno>Splitternachlass Anton Emanuel Schönbach</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <objectDesc>
-                                    <desc type="brief"/>
-                                    <desc type="umschlag"/>
-                                    <desc type="_blaetter" n="1"/>
-                                    <desc type="_seiten" n="3"/>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote medium="schwarze_tinte" style="lateinische-kurrent"/>
-                                </handDesc>
-                                <additions>
-                                    <incident type="postal">
-                                        <desc>
-                                            <stamp n="1">
-                                                <placeName ref="#pmb65192">Zdislavice
-                                                  (Zdounky)</placeName>
-                                            </stamp>
-                                        </desc>
-                                    </incident>
-                                    <incident type="postal">
-                                        <desc>
-                                            <stamp n="2">
-                                                <placeName ref="#pmb118164"
-                                                  >Borowitz-XXXX</placeName>
-                                                <date when="XXXX">XXXX</date>
-                                                <time>XXXX</time>
-                                            </stamp>
-                                        </desc>
-                                    </incident>
-                                    <incident type="archival">
-                                        <desc>Umschlag mit Bleistift von unbekannter Hand
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Ö</country>
+                        <settlement>Wien</settlement>
+                        <repository>Österreichische Akademie der Wissenschaften</repository>
+                        <idno>Splitternachlass Anton Emanuel Schönbach</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <desc type="brief"/>
+                           <desc type="umschlag"/>
+                           <desc type="_blaetter" n="1"/>
+                           <desc type="_seiten" n="3"/>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote medium="schwarze_tinte" style="lateinische-kurrent"/>
+                        </handDesc>
+                        <additions>
+                           <incident type="postal">
+                              <desc>
+                                 <stamp n="1">
+                                    <placeName ref="#pmb65192">Zdislavice
+                                                    (Zdounky)</placeName>
+                                 </stamp>
+                              </desc>
+                           </incident>
+                           <incident type="postal">
+                              <desc>
+                                 <stamp n="2">
+                                    <placeName ref="#pmb118164">Borowitz-XXXX</placeName>
+                                    <date when="XXXX">XXXX</date>
+                                    <time>XXXX</time>
+                                 </stamp>
+                              </desc>
+                           </incident>
+                           <incident type="archival">
+                              <desc>Umschlag mit Bleistift von unbekannter Hand
                                             beschriftet: »<quote>Ebner-Eschenbach</quote>«</desc>
-                                    </incident>
-                                </additions>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pmb11216">Ebner-Eschenbach, Marie von</persName>
-                    <date when="1911-09-01">1. 9. 1911</date>
-                    <placeName ref="#pmb65192">Zdislavice</placeName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pmb118160">Schönbach, Anna</persName>
-                    <placeName ref="#pmb860">Graz</placeName>
-                    <date evidence="conjecture" notBefore="1911-09-02" notAfter="1911-09-06"
-                        >[2. 9. 1911 – 6. 9. 1911]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="LU" when="2022-10-24">Angelegt aus Abschrift von Anna Lindner</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine><pb facs="Ebner-Eschenbach_00001"/>Hochwohlgeboren</addrLine>
-                    <addrLine>Frau Hofrat Anna Schönbach</addrLine>
-                    <addrLine><rs type="place" ref="#pmb860">Graz</rs></addrLine>
-                    <addrLine><rs type="place" ref="#pmb118167">Glacisstraße 9</rs>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener><dateline rend="right"><pb facs="Ebner-Eschenbach_00003"/><rs type="place" ref="#pmb65192"
-                            >Zdisslawita Post Zdounek Mähren</rs><space unit="chars" quantity="1"
-                            /><date when="1911-09-01">1. Sept. 911</date>.</dateline>
-                    <salute rend="left">Hochverehrte teure Frau!</salute></opener>
-                <p>Auf das Tiefste ergriffen durch die eben empfangene Trauerbotschaft des Todes
+                           </incident>
+                        </additions>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb11216">Ebner-Eschenbach, Marie von</persName>
+               <date when="1911-09-01">1. 9. 1911</date>
+               <placeName ref="#pmb65192">Zdislavice</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb118160">Schönbach, Anna</persName>
+               <placeName ref="#pmb860">Graz</placeName>
+               <date evidence="conjecture" notBefore="1911-09-02" notAfter="1911-09-06">[2. 9. 1911 – 6. 9. 1911]</date>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="LU" when="2022-10-24">Angelegt aus Abschrift von Anna Lindner</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>
+                  <pb facs="Ebner-Eschenbach_00001"/>Hochwohlgeboren</addrLine>
+               <addrLine>Frau Hofrat Anna Schönbach</addrLine>
+               <addrLine>
+                  <rs type="place" ref="#pmb860">Graz</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="#pmb118167">Glacisstraße 9</rs>.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <pb facs="Ebner-Eschenbach_00003"/>
+                  <rs type="place" ref="#pmb65192">Zdisslawita Post Zdounek Mähren</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date when="1911-09-01">1. Sept. 911</date>.</dateline>
+               <salute rend="left">Hochverehrte teure Frau!</salute>
+            </opener>
+            <p>Auf das Tiefste ergriffen durch die eben empfangene Trauerbotschaft des Todes
                     Ihres edlen <rs type="person" ref="#pmb3330">Gatten</rs>, erlaube ich mir, Ihnen
                     mein wärmstes Beileid, mein innigstes Mitgefühl auszusprechen. Er stand auf der
                     Höhe <pb facs="Ebner-Eschenbach_00004"/>seines reichen Lebens, wir waren stolz auf ihn, er war uns
                     Lehrer und Führer und für so viele ein Vorbild.</p>
-                <p>Wer würde nach einem Verluste wie den, den Sie erleiden, von Trost sprechen
+            <p>Wer würde nach einem Verluste wie den, den Sie erleiden, von Trost sprechen
                     dürfen und wer würde es wagen ihn spenden zu wollen? So wiederhole ich denn nur,
-                    hochverehrte teure Frau: Zu den Tausenden, die mit Ihnen <pb facs="Ebner-Eschenbach_00005"
-                    />trauern aus vollem Herzen, in Ehrfurcht und Dankbarkeit, zählt auch</p>
-                <closer>Ihre ergebene <lb/><signed>Marie Ebner-Eschenbach</signed></closer>
-            </div>
-        </body>
-    </text>
+                    hochverehrte teure Frau: Zu den Tausenden, die mit Ihnen <pb facs="Ebner-Eschenbach_00005"/>trauern aus vollem Herzen, in Ehrfurcht und Dankbarkeit, zählt auch</p>
+            <closer>Ihre ergebene <lb/>
+               <signed>Marie Ebner-Eschenbach</signed>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11216">
+               <persName>
+                  <forename>Marie von</forename>
+                  <surname>Ebner-Eschenbach</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">von Dubsky</persName>
+               <persName type="person_geburtsname-vorname">Dubský</persName>
+               <persName type="person_geburtsname_nachname">von Třebomyslice</persName>
+               <birth>
+                  <date when="1830-09-13">13.09.1830</date>
+                  <settlement ref="pmb65192">
+                     <placeName type="pref">Zdislavice</placeName>
+                     <location>
+                        <geo>49,22351 17,26127</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-03-12">12.03.1916</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14602</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118528661</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11216.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11216</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11216</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11216.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49728</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q93525</idno>
+            </person>
+            <person xml:id="pmb118160">
+               <persName>
+                  <forename>Anna</forename>
+                  <surname>Schönbach</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Pöltl</persName>
+               <birth>
+                  <date notBefore="1874-01-01" when="1874-07-02" notAfter="1874-12-31">1874</date>
+               </birth>
+               <death>
+                  <date when="1918-07-02" notAfter="1918-12-31">1918</date>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb939">Haushälter/Haushälterin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118160/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116859970</idno>
+            </person>
+            <person xml:id="pmb3330">
+               <persName>
+                  <forename>Anton Emanuel</forename>
+                  <surname>Schönbach</surname>
+               </persName>
+               <birth>
+                  <date when="1848-05-29">1848-05-29</date>
+                  <settlement ref="pmb54957">
+                     <placeName type="pref">Rumburk</placeName>
+                     <location>
+                        <geo>50,95151 14,55699</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1911-08-25">1911-08-25</date>
+                  <settlement ref="pmb38711">
+                     <placeName type="pref">Schruns</placeName>
+                     <location>
+                        <geo>47,06667 9,91667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb239">Germanist/Germanistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116859989</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3330.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3330</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/entity/Q589156</idno>
+            </person>
+         </listPerson>
+         <listPlace>
+            <place xml:id="pmb65192">
+               <placeName>Zdislavice</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>49,22351 17,26127</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb62137">Troubky-Zdislavice</placeName>
+                  <geo>49,22756 17,26848</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43430">Tschechische Republik</placeName>
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65192/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3061645/</idno>
+            </place>
+            <place xml:id="pmb118164">
+               <placeName>Borovnice</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>50,50916 15,61719</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43430">Tschechische Republik</placeName>
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3078943/</idno>
+            </place>
+            <place xml:id="pmb860">
+               <placeName>Graz</placeName>
+               <placeName type="alternative-name">Grätz (Graz)</placeName>
+               <placeName type="legacy-name-merge">Graz Stadt</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,06667 15,43333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb17">Steiermark</placeName>
+                  <geo>47,38 15,7925</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q13298</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7871499/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/860</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42858</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64211/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2778058/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb860</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90759/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/93975/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4021912-4</idno>
+            </place>
+            <place xml:id="pmb118167">
+               <placeName>Glacisstraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>47,07322 15,44711</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb860">Graz</placeName>
+                  <geo>47,06667 15,43333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118167/</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
 </TEI>
