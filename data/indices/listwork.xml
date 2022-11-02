@@ -23,7 +23,7 @@
                         </title>
                         <author key="person__12602" role="hat-geschaffen">Saar, Ferdinand von</author>
                         <date notBefore-iso="1888-01-01" when-iso="1888-07-01">1888</date>
-                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118173/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118173/</idno>
                         <note type="collections">
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
@@ -47,7 +47,7 @@
                         <title type="main">Die Troglodytin</title>
                         <author key="person__12602" role="hat-geschaffen">Saar, Ferdinand von</author>
                         <date when-iso="1888-08-01">1888-08-01</date>
-                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118186/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118186/</idno>
                         <note type="collections">
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
@@ -58,7 +58,7 @@
                         <title type="werk_link">https://books.google.at/books?id=HyR2LAo51vwC</title>
                         <author key="person__3330" role="hat-geschaffen">Schönbach, Anton Emanuel</author>
                         <date notBefore-iso="1888-01-01" when-iso="1888-07-01">1888</date>
-                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118170/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118170/</idno>
                         <note type="collections">
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
