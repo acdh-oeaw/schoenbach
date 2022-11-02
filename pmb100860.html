@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:foo="whatever">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,17 +45,28 @@
                   <h1 align="center">Blansko</h1>
                </div>
                <div class="card-body">
-                  <div class="card-body"><small>Namensvarianten:</small><ul>
-                        <li>Blansko</li>
-                        <li>Tschechische Republik</li>
-                     </ul><small>Normdaten IDs</small><ul>
-                        <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/100860/">https://pmb.acdh.oeaw.ac.at/entity/100860/</a></li>
-                        <li><small>URL:</small> <a href="https://d-nb.info/gnd/4208803-3">https://d-nb.info/gnd/4208803-3</a></li>
-                     </ul><br /><small>Koordinaten:</small> 49,363039 16,64445949,75 15,0
-                     <hr></hr>
-                     <div id="mentions">
-                        <legend>erwähnt in</legend>
-                        <ul></ul>
+                  <div xmlns:mam="whatever" class="container-fluid">
+                     <div class="card-body-index">
+                        <div id="mentions">
+                           <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/100860/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://d-nb.info/gnd/4208803-3" target="_blank"><span class="badge rounded-pill" style="background-color: black;  color: white">GND</span></a> </p>
+                        </div>
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    49.363039, 16.644459
+                                                        L.marker([49.363039, 16.644459]).addTo(mymap)
+                                                        .bindPopup("<b>Blansko</b>").openPopup();
+                                                </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

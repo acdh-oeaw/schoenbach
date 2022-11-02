@@ -221,37 +221,28 @@
                      <h5 class="modal-title">WienÖsterreich <a href="pmb50.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Namensvarianten:</small><ul>
-                           <li>Wien</li>
-                           <li>K.K. Reichshaupt- und Residenzstadt Wien</li>
-                           <li>Bécs</li>
-                           <li>Land Wien</li>
-                           <li>Vídeň</li>
-                           <li>Wenia</li>
-                           <li>Beč</li>
-                           <li>Vindobona (Wien)</li>
-                           <li>Vindobona</li>
-                           <li>Vienna</li>
-                           <li>Wien?</li>
-                           <li>Österreich</li>
-                        </ul><small>Normdaten IDs</small><ul>
-                           <li><small>URL:</small> <a href="https://sws.geonames.org/2761369/">https://sws.geonames.org/2761369/</a></li>
-                           <li><small>URL:</small> <a href="https://d-nb.info/gnd/4066009-6">https://d-nb.info/gnd/4066009-6</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/50">https://pmb.acdh.oeaw.ac.at/entity/50</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/2316">https://pmb.acdh.oeaw.ac.at/entity/2316</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/20954">https://pmb.acdh.oeaw.ac.at/entity/20954</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/65221/">https://pmb.acdh.oeaw.ac.at/entity/65221/</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/65223/">https://pmb.acdh.oeaw.ac.at/entity/65223/</a></li>
-                           <li><small>URL:</small> <a href="https://kraus.wienbibliothek.at/register/orte/pmb50">https://kraus.wienbibliothek.at/register/orte/pmb50</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</a></li>
-                           <li><small>URL:</small> <a href="https://www.wikidata.org/entity/Q1741">https://www.wikidata.org/entity/Q1741</a></li>
-                        </ul><br /><small>Koordinaten:</small> 48,2066 16,3734147,33333 13,33333
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div xmlns:mam="whatever" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/50/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/2761369/" target="_blank"><span class="badge rounded-pill" style="background-color: black;  color: white">geoNames</span></a> <a href="https://de.wikipedia.org/wiki/Wien" target="_blank">Wikipedia<span class="badge rounded-pill" style="background-color: black;  color: white">Wikidata</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.2066, 16.37341
+                                                        L.marker([48.2066, 16.37341]).addTo(mymap)
+                                                        .bindPopup("<b>Wien</b>").openPopup();
+                                                </script><div class="card"></div>
+                           <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                                 <legend>Erwähnungen</legend>
+                                 <ul></ul></span></div>
                         </div>
                      </div>
                   </div>
@@ -266,31 +257,28 @@
                      <h5 class="modal-title">GrazÖsterreichSteiermark <a href="pmb860.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Namensvarianten:</small><ul>
-                           <li>Graz</li>
-                           <li>Grätz (Graz)</li>
-                           <li>Graz Stadt</li>
-                           <li>Österreich</li>
-                           <li>Steiermark</li>
-                        </ul><small>Normdaten IDs</small><ul>
-                           <li><small>URL:</small> <a href="https://www.wikidata.org/wiki/Q13298">https://www.wikidata.org/wiki/Q13298</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html</a></li>
-                           <li><small>URL:</small> <a href="https://sws.geonames.org/7871499/">https://sws.geonames.org/7871499/</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/860">https://pmb.acdh.oeaw.ac.at/entity/860</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/42858">https://pmb.acdh.oeaw.ac.at/entity/42858</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/64211/">https://pmb.acdh.oeaw.ac.at/entity/64211/</a></li>
-                           <li><small>URL:</small> <a href="https://sws.geonames.org/2778058/">https://sws.geonames.org/2778058/</a></li>
-                           <li><small>URL:</small> <a href="https://kraus.wienbibliothek.at/register/orte/pmb860">https://kraus.wienbibliothek.at/register/orte/pmb860</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/90759/">https://pmb.acdh.oeaw.ac.at/entity/90759/</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/93975/">https://pmb.acdh.oeaw.ac.at/entity/93975/</a></li>
-                           <li><small>URL:</small> <a href="https://d-nb.info/gnd/4021912-4">https://d-nb.info/gnd/4021912-4</a></li>
-                        </ul><br /><small>Koordinaten:</small> 47,06667 15,4333347,33333 13,3333347,38 15,7925
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div xmlns:mam="whatever" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/860/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/7871499/" target="_blank"><span class="badge rounded-pill" style="background-color: black;  color: white">geoNames</span></a> <a href="https://de.wikipedia.org/wiki/Graz" target="_blank">Wikipedia<span class="badge rounded-pill" style="background-color: black;  color: white">Wikidata</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    47.06667, 15.43333
+                                                        L.marker([47.06667, 15.43333]).addTo(mymap)
+                                                        .bindPopup("<b>Graz</b>").openPopup();
+                                                </script><div class="card"></div>
+                           <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                                 <legend>Erwähnungen</legend>
+                                 <ul></ul></span></div>
                         </div>
                      </div>
                   </div>
@@ -305,22 +293,28 @@
                      <h5 class="modal-title">XIX., DöblingWien <a href="pmb69.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Namensvarianten:</small><ul>
-                           <li>XIX., Döbling</li>
-                           <li>Döbling</li>
-                           <li>Wien</li>
-                        </ul><small>Normdaten IDs</small><ul>
-                           <li><small>URL:</small> <a href="https://sws.geonames.org/2780893/">https://sws.geonames.org/2780893/</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/69">https://pmb.acdh.oeaw.ac.at/entity/69</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/24723">https://pmb.acdh.oeaw.ac.at/entity/24723</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html</a></li>
-                        </ul><br /><small>Koordinaten:</small> 48,25 16,3330648,2066 16,37341
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div xmlns:mam="whatever" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/69/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/2780893/" target="_blank"><span class="badge rounded-pill" style="background-color: black;  color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.25, 16.33306
+                                                        L.marker([48.25, 16.33306]).addTo(mymap)
+                                                        .bindPopup("<b>XIX., Döbling</b>").openPopup();
+                                                </script><div class="card"></div>
+                           <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                                 <legend>Erwähnungen</legend>
+                                 <ul></ul></span></div>
                         </div>
                      </div>
                   </div>
