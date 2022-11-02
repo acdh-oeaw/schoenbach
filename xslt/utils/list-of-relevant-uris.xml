@@ -7,17 +7,17 @@ are but links to pdfs etc. an URL can be added
 <list>
     <item>
         <abbr>schnitzler-briefe</abbr>
-        <caption>Briefe</caption>
+        <caption>Schnitzler Briefe</caption>
         <color>#A63437</color>
     </item>
     <item>
         <abbr>schnitzler-tagebuch</abbr>
-        <caption>Tagebuch</caption>
+        <caption>Schnitzler Tagebuch</caption>
         <color>#037a33</color>
     </item>
     <item>
         <abbr>schnitzler-lektueren</abbr>
-        <caption>Leseliste</caption>
+        <caption>Schnitzler Leseliste</caption>
         <color>#022954</color>
     </item>
     <item>
