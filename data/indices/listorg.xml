@@ -39,7 +39,7 @@
                                 https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb882.html
                             </note>
                         </location>
-                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118175/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118175/</idno>
                         <listBibl>
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </listBibl>
