@@ -20,27 +20,25 @@
                     <xsl:attribute name="class">
                         <xsl:text>idno</xsl:text>
                     </xsl:attribute>
-                    <xsl:element name="span">
-                        <xsl:attribute name="class">
-                            <xsl:text>badge rounded-pill bg-success</xsl:text>
-                        </xsl:attribute>
-                        <xsl:attribute name="style">
-                            <xsl:text>background-color: </xsl:text>
-                            <xsl:choose>
-                                <xsl:when test="$uri-color">
-                                    <xsl:value-of select="$uri-color"
-                                    />
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:text>black</xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                            <xsl:text> color: white</xsl:text>
-                        </xsl:attribute>
+                    
                         <xsl:element name="a">
-                            <xsl:attribute name="style">
-                                <xsl:text> color: white</xsl:text>
-                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="class">
+                                    <xsl:text>badge rounded-pill bg-success</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="style">
+                                    <xsl:text>background-color: </xsl:text>
+                                    <xsl:choose>
+                                        <xsl:when test="$uri-color">
+                                            <xsl:value-of select="$uri-color"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:text>black</xsl:text>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <xsl:text> color: white</xsl:text>
+                                </xsl:attribute>
                             <xsl:choose>
                                 <xsl:when test="$abbr = 'wikidata'">
                                     <xsl:variable name="wikipediaVSdata"
@@ -123,10 +121,10 @@
                     <xsl:attribute name="class">
                         <xsl:text>idno</xsl:text>
                     </xsl:attribute>
-                    <xsl:element name="span">
-                        <xsl:attribute name="class">
-                            <xsl:text>badge rounded-pill bg-success</xsl:text>
-                        </xsl:attribute>
+                        <xsl:element name="a">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill bg-success</xsl:text>
+                            </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
                                 <xsl:choose>
@@ -140,9 +138,6 @@
                                 </xsl:choose>
                                 <xsl:text> color: white</xsl:text>
                             </xsl:attribute>
-                            <xsl:text> color: white</xsl:text>
-                        
-                        <xsl:element name="a">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="child::url"/>
                             </xsl:attribute>
@@ -152,7 +147,6 @@
                             <xsl:value-of select="./caption"/>
                         </xsl:element>
                     </xsl:element>
-                </xsl:element>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>

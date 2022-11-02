@@ -224,7 +224,7 @@
                                     </a>
                                 </li>
                             </xsl:for-each>
-                        </ul>c
+                        </ul>
                     </span>
                 </div>
             </xsl:if>
