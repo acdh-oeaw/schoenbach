@@ -27,23 +27,6 @@
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
                             </xsl:attribute>
-                            <xsl:variable name="lang-code"
-                                select="substring(substring-after($wikipediaVSdata, 'https://'), 1, 2)"/>
-                            <xsl:choose>
-                                <xsl:when test="contains($wikipediaVSdata, 'wikipedia')">
-                                    <xsl:choose>
-                                        <xsl:when test="$lang-code = 'de'"/>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="$lang-code"/>
-                                            <xsl:text>:</xsl:text>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                    <xsl:text>Wikipedia</xsl:text>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:text>Wikidata</xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
                         </xsl:when>
                         <xsl:when test="$abbr = 'pmb'">
                             <xsl:variable name="pmb-entitytype" as="xs:string">
@@ -96,7 +79,32 @@
                             </xsl:choose>
                             <xsl:text> color: white</xsl:text>
                         </xsl:attribute>
-                        <xsl:value-of select="./caption"/>
+                        <xsl:choose>
+                            <xsl:when test="$abbr = 'wikidata'">
+                                <xsl:variable name="wikipediaVSdata"
+                                    select="mam:wikidata2wikipedia($current-idno)" as="xs:string"/>
+                                <xsl:variable name="lang-code"
+                                    select="substring(substring-after($wikipediaVSdata, 'https://'), 1, 2)"/>
+                                <xsl:choose>
+                                    <xsl:when test="contains($wikipediaVSdata, 'wikipedia')">
+                                        <xsl:choose>
+                                            <xsl:when test="$lang-code = 'de'"/>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="$lang-code"/>
+                                                <xsl:text>:</xsl:text>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                        <xsl:text>Wikipedia</xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>Wikidata</xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="./caption"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:element>
                 </xsl:element>
                 <xsl:text> </xsl:text>
