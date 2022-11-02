@@ -91,10 +91,10 @@
                         <xsl:choose>
                             <xsl:when test="$uri-color">
                                 <xsl:value-of select="$uri-color"
-                                />
+                                /><xsl:text>;</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:text>black</xsl:text>
+                                <xsl:text>black; </xsl:text>
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:text> color: white</xsl:text>
@@ -131,10 +131,10 @@
                                     <xsl:choose>
                                         <xsl:when test="$uri-color">
                                             <xsl:value-of select="$uri-color"
-                                            />
+                                            /><xsl:text>; </xsl:text>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:text>black</xsl:text>
+                                            <xsl:text>black; </xsl:text>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                     <xsl:text> color: white</xsl:text>
