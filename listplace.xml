@@ -27,13 +27,12 @@
                             <placeName key="place__43430">Tschechische Republik</placeName>
                             <geo>49,75 15,0</geo>
                         </location>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/118155/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118155/</idno>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/3076059/</idno>
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note></place>
                     <place xml:id="pmb100860">
                         <placeName>Blansko</placeName>
                         <location type="coords">
@@ -43,13 +42,12 @@
                             <placeName key="place__43430">Tschechische Republik</placeName>
                             <geo>49,75 15,0</geo>
                         </location>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/100860/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100860/</idno>
                         <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4208803-3</idno>
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
                     <place xml:id="pmb50">
                         <placeName>Wien</placeName>
                         <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt
@@ -84,32 +82,23 @@
                         </location>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                         <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4066009-6</idno>
-                        <idno type="URL" subtype="schnitzler-bahr"
-                            >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                        <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
-                        <idno type="URL" subtype="schnitzler-briefe"
-                            >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-                        <idno type="URL" subtype="legalkraus"
-                            >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-                        <idno type="URL" subtype="schnitzler-tagebuch"
-                            >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
-                        <idno type="URL" subtype="wikidata"
-                            >https://www.wikidata.org/entity/Q1741</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+                        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                        <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                        <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                        <idno type="URL" subtype="wikidata">https://www.wikidata.org/entity/Q1741</idno>
                         <listBibl>
                             <bibl type="collections" n="1">ASBW</bibl>
                             <bibl type="collections" n="2">Erster Import</bibl>
                             <bibl type="collections" n="5">legalkraus</bibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
                     <place xml:id="pmb41240">
                         <placeName>Österreich</placeName>
                         <placeName type="alternative-name">Republik Österreich</placeName>
@@ -133,19 +122,15 @@
                             <geo>48,4054 16,4887</geo>
                         </location>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/41240</idno>
-                        <idno type="URL" subtype="schnitzler-briefe"
-                            >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
-                        <idno type="URL" subtype="legalkraus"
-                            >https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
-                        <idno type="URL" subtype="schnitzler-tagebuch"
-                            >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240</idno>
+                        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+                        <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+                        <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
                         <listBibl>
                             <bibl type="collections" n="2">Erster Import</bibl>
                             <bibl type="collections" n="5">legalkraus</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
                     <place xml:id="pmb69">
                         <placeName>XIX., Döbling</placeName>
                         <placeName type="legacy-name-merge">Döbling</placeName>
@@ -159,21 +144,17 @@
                             <geo>48,2066 16,37341</geo>
                         </location>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/2780893/</idno>
-                        <idno type="URL" subtype="schnitzler-bahr"
-                            >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html</idno>
+                        <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html</idno>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/69</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/24723</idno>
-                        <idno type="URL" subtype="schnitzler-briefe"
-                            >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69</idno>
-                        <idno type="URL" subtype="schnitzler-tagebuch"
-                            >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24723</idno>
+                        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69</idno>
+                        <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html</idno>
                         <listBibl>
                             <bibl type="collections" n="1">ASBW</bibl>
                             <bibl type="collections" n="2">Erster Import</bibl>
                             <bibl type="collections" n="5">legalkraus</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note></place>
                     <place xml:id="pmb860">
                         <placeName>Graz</placeName>
                         <placeName type="alternative-name">Grätz (Graz)</placeName>
@@ -197,27 +178,18 @@
                             <placeName key="place__17">Steiermark</placeName>
                             <geo>47,38 15,7925</geo>
                         </location>
-                        <idno type="URL" subtype="wikidata"
-                            >https://www.wikidata.org/wiki/Q13298</idno>
-                        <idno type="URL" subtype="schnitzler-bahr"
-                            >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html</idno>
+                        <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q13298</idno>
+                        <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html</idno>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/7871499/</idno>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/860</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/42858</idno>
-                        <idno type="URL" subtype="schnitzler-briefe"
-                            >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/64211/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42858</idno>
+                        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb860</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64211/</idno>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/2778058/</idno>
-                        <idno type="URL" subtype="legalkraus"
-                            >https://kraus.wienbibliothek.at/register/orte/pmb860</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/90759/</idno>
-                        <idno type="URL" subtype="schnitzler-tagebuch"
-                            >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html</idno>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/93975/</idno>
+                        <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb860</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90759/</idno>
+                        <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90759.html</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/93975/</idno>
                         <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4021912-4</idno>
                         <listBibl>
                             <bibl type="collections" n="1">ASBW</bibl>
@@ -225,7 +197,7 @@
                             <bibl type="collections" n="5">legalkraus</bibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
                     <place xml:id="pmb118167">
                         <placeName>Glacisstraße</placeName>
                         <desc type="entity_type">Straße (K.STR)</desc>
@@ -237,12 +209,11 @@
                             <placeName key="place__860">Graz</placeName>
                             <geo>47,06667 15,43333</geo>
                         </location>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/118167/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118167/</idno>
                         <listBibl>
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
                     <place xml:id="pmb65192">
                         <placeName>Zdislavice</placeName>
                         <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
@@ -258,13 +229,12 @@
                             <placeName key="place__43430">Tschechische Republik</placeName>
                             <geo>49,75 15,0</geo>
                         </location>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/65192/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65192/</idno>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/3061645/</idno>
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
                     <place xml:id="pmb118164">
                         <placeName>Borovnice</placeName>
                         <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
@@ -276,13 +246,12 @@
                             <placeName key="place__43430">Tschechische Republik</placeName>
                             <geo>49,75 15,0</geo>
                         </location>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
                         <idno type="URL" subtype="geonames">https://sws.geonames.org/3078943/</idno>
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    </place>
+                    <note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
                 </listPlace>
             </div>
         </body>

@@ -5,7 +5,7 @@
                 <title type="main">Institutionsverzeichnis</title>
             </titleStmt>
             <publicationStmt>
-                <p />
+                <p/>
             </publicationStmt>
             <sourceDesc>
                 <p>born digital</p>
@@ -46,7 +46,7 @@
                         <note type="apis_dates">
                             <date when-iso="1891-07-02" notAfter-iso="1891-12-31">1891</date>
                         </note>
-                    </org>
+                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></org>
                    
                 </listOrg>
             </div>

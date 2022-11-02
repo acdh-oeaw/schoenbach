@@ -28,7 +28,7 @@
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
                         <note type="work_kind">Gedichtsammlung</note>
-                    </bibl>
+                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></bibl>
                     <bibl xml:id="pmb78156">
                         <title type="main">Schicksale. Drei Novellen</title>
                         <title type="werk_bibliografische-angabe">Schicksale. Drei Novellen. Heidelberg 1889.</title>
@@ -42,7 +42,7 @@
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
                         <note type="work_kind">Novellensammlung</note>
-                    </bibl>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></bibl>
                     <bibl xml:id="pmb118186">
                         <title type="main">Die Troglodytin</title>
                         <author key="person__12602" role="hat-geschaffen">Saar, Ferdinand von</author>
@@ -52,7 +52,7 @@
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
                         <note type="work_kind">Novelle</note>
-                    </bibl>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></bibl>
                     <bibl xml:id="pmb118170">
                         <title type="main">Über Lesen und Bildung. Umschau und Ratschläge</title>
                         <title type="werk_link">https://books.google.at/books?id=HyR2LAo51vwC</title>
@@ -62,8 +62,8 @@
                         <note type="collections">
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </note>
-                        <note type="work_kind">Rezension >> Sammelrezension</note>
-                    </bibl>
+                        <note type="work_kind">Rezension &gt;&gt; Sammelrezension</note>
+                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></bibl>
                     
                 </listBibl>
             </div>
