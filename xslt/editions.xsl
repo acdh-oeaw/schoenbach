@@ -208,13 +208,16 @@
                                                   <div class="kommentarhang">
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:correspDesc">
-                                                  <h3>Verlauf des Versands</h3>
+                                                  <h3>Versandverlauf</h3>
+                                                      <div>
                                                   <xsl:apply-templates
                                                   select="descendant::tei:teiHeader/descendant::tei:correspDesc"
                                                   />
+                                                      </div>
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listWit">
+                                                      <div>
                                                       <xsl:choose>
                                                           <xsl:when test="descendant::tei:teiHeader/descendant::tei:listWit/tei:witness[2]">
                                                               <h3>Archivzeuge <xsl:value-of select="position()"/>
@@ -228,9 +231,11 @@
                                                               <xsl:apply-templates select="descendant::tei:teiHeader/descendant::tei:witness"/>
                                                           </xsl:otherwise>
                                                       </xsl:choose>
+                                                      </div>
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listBibl">
+                                                      <div>
                                                   <xsl:choose>
                                                       <xsl:when test="descendant::tei:teiHeader/descendant::tei:listBibl/tei:bibl[2]">
                                                           <h3><xsl:text>Druck</xsl:text></h3>
@@ -245,6 +250,7 @@
                                                   select="descendant::tei:teiHeader/descendant::tei:listBibl/tei:biblStruct">
                                                   <xsl:value-of select="foo:bibliografischeAngabe(.)"/>
                                                   </xsl:for-each>
+                                                      </div>
                                                   </xsl:if>
                                                   </div>
                                                 </div>
@@ -445,8 +451,10 @@
                                                   <p><xsl:value-of select="$doc_title"/>. In:
                                                   Fünf Briefe an Anton E. Schönbach. Digitale
                                                   Edition Austrian Centre for Digital Humanities and Cultural Heritage, November 2022,
-                                                  (Stand <xsl:value-of select="$currentDate"/>)
-                                                  <xsl:value-of select="$handle"/>.</p>
+                                                  Stand <xsl:value-of select="$currentDate"/><xsl:if test="$handle != ''">
+                                                      <xsl:text> </xsl:text>
+                                                      <xsl:value-of select="$handle"/>
+                                                      </xsl:if>.</p>
                                                   <h4>Quellcode</h4>
                                                   <p>Code als <a class="ml-3" data-toggle="tooltip"
                                                   title="Link zur TEI-Datei">
@@ -1574,9 +1582,11 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:physDesc">
+        <div>
         <p>
             <xsl:apply-templates/>
         </p>
+        </div>
     </xsl:template>
     <xsl:template match="tei:msIdentifier">
        
@@ -1587,6 +1597,7 @@
                 <xsl:value-of select="tei:idno"/>
             </xsl:if>
         </p>
+       
     </xsl:template>
     <!-- Streichung -->
     <xsl:template match="tei:del[not(ancestor::tei:physDesc)]"/>
