@@ -205,23 +205,22 @@
                                             <div class="tab-pane" id="nav-archiv" role="tabpanel"
                                                 aria-labelledby="nav-archiv-tab">
                                                 <div class="card-body-anhang"  style="display: block;">
+                                                    <div class="kommentarhang-versand">
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:correspDesc">
-                                                      <div class="kommentarhang-versand">
-                                                  <h3>Versandverlauf</h3>
+                                                  <h4>Versandverlauf</h4>
                                                       
                                                   <xsl:apply-templates
                                                   select="descendant::tei:teiHeader/descendant::tei:correspDesc"
                                                   />
-                                                             </div>
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listWit">
-                                                      <div class="kommentarhang-zeuge" style="display: block;">
+                                                      
                                                       <xsl:choose>
                                                           <xsl:when test="descendant::tei:teiHeader/descendant::tei:listWit/tei:witness[2]">
-                                                              <h3>Archivzeuge <xsl:value-of select="position()"/>
-                                                              </h3>
+                                                              <h4>Archivzeuge <xsl:value-of select="position()"/>
+                                                              </h4>
                                                               <xsl:for-each
                                                                   select="descendant::tei:teiHeader/descendant::tei:witness">
                                                                   <xsl:apply-templates select="."/>
@@ -231,27 +230,28 @@
                                                               <xsl:apply-templates select="descendant::tei:teiHeader/descendant::tei:witness"/>
                                                           </xsl:otherwise>
                                                       </xsl:choose>
-                                                      </div>
+                                                      
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listBibl">
-                                                      <div class="kommentarhang-drucke" style="display: block;">
+                                                      
                                                   <xsl:choose>
                                                       <xsl:when test="descendant::tei:teiHeader/descendant::tei:listBibl/tei:bibl[2]">
-                                                          <h3><xsl:text>Druck</xsl:text></h3>
+                                                          <h4><xsl:text>Druck</xsl:text></h4>
                                                       </xsl:when>
                                                       <xsl:otherwise>
-                                                          <h3><xsl:text>Druck </xsl:text>
+                                                          <h4><xsl:text>Druck </xsl:text>
                                                               <xsl:value-of select="position()"/>
-                                                          </h3>
+                                                          </h4>
                                                       </xsl:otherwise>
                                                   </xsl:choose>
                                                   <xsl:for-each
                                                   select="descendant::tei:teiHeader/descendant::tei:listBibl/tei:biblStruct">
                                                   <xsl:value-of select="foo:bibliografischeAngabe(.)"/>
                                                   </xsl:for-each>
-                                                      </div>
+                                                      
                                                   </xsl:if>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="tab-pane" id="nav-person" role="tabpanel"
@@ -2542,9 +2542,9 @@
     </xsl:template>
     
     <xsl:template match="tei:correspDesc">
-        <p><dl>
+        <dl>
             <xsl:apply-templates select="tei:correspAction"/>
-        </dl></p>
+        </dl>
     </xsl:template>
     
     <xsl:template match="tei:correspAction">
