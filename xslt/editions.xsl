@@ -1768,7 +1768,7 @@
             <xsl:value-of select="foo:spaci-space($anzahl, $gesamt)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:space[@unit = 'line']">
+    <xsl:template match="tei:space[@unit = 'line' and not(@dim = 'vertical')]">
         <xsl:value-of select="foo:spaci-space(@quantity, @quantity)"/>
     </xsl:template>
     <xsl:function name="foo:dots">
