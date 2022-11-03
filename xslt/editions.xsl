@@ -204,10 +204,10 @@
                                             </div>
                                             <div class="tab-pane" id="nav-archiv" role="tabpanel"
                                                 aria-labelledby="nav-archiv-tab">
-                                                <div class="card-body-anhang">
+                                                <div class="card-body-anhang"  style="display: block;">
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:correspDesc">
-                                                      <div class="kommentarhang">
+                                                      <div class="kommentarhang-versand">
                                                   <h3>Versandverlauf</h3>
                                                       
                                                   <xsl:apply-templates
@@ -217,7 +217,7 @@
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listWit">
-                                                      <div class="kommentarhang">
+                                                      <div class="kommentarhang-zeuge" style="display: block;">
                                                       <xsl:choose>
                                                           <xsl:when test="descendant::tei:teiHeader/descendant::tei:listWit/tei:witness[2]">
                                                               <h3>Archivzeuge <xsl:value-of select="position()"/>
@@ -235,7 +235,7 @@
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listBibl">
-                                                      <div class="kommentarhang">
+                                                      <div class="kommentarhang-drucke" style="display: block;">
                                                   <xsl:choose>
                                                       <xsl:when test="descendant::tei:teiHeader/descendant::tei:listBibl/tei:bibl[2]">
                                                           <h3><xsl:text>Druck</xsl:text></h3>
@@ -409,30 +409,6 @@
                                                   </xsl:if>
                                                   </xsl:for-each>
                                                   <xsl:text>)</xsl:text>
-                                                  </xsl:if>
-                                                  <xsl:if
-                                                  test="child::tei:location[@type = 'coords']">
-                                                  <xsl:variable name="mlat"
-                                                  select="replace(tokenize(tei:location[@type = 'coords'][1]/tei:geo, ' ')[1], ',', '.')"
-                                                  as="xs:string"/>
-                                                  <xsl:variable name="mlong"
-                                                  select="replace(tokenize(tei:location[@type = 'coords'][1]/tei:geo, ' ')[2], ',', '.')"
-                                                  as="xs:string"/>
-                                                  <xsl:variable name="mappin"
-                                                  select="concat('mlat=',$mlat, '&amp;mlon=', $mlong)"
-                                                  as="xs:string"/>
-                                                  <xsl:variable name="openstreetmapurl"
-                                                  select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="$openstreetmapurl"/>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="target">
-                                                  <xsl:text>_blank</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="rel">
-                                                  <xsl:text>noopener</xsl:text>
-                                                  </xsl:attribute> <i class="fa-solid fa-location-dot"></i> </a>
                                                   </xsl:if>
                                                   </li>
                                                   </xsl:for-each>
