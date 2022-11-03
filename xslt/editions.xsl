@@ -438,10 +438,10 @@
                                                   select="child::tei:placeName[1]/text()"/>
                                                   </a>
                                                   <xsl:if
-                                                  test="child::tei:placeName[@type = 'alternative-name'][1]">
+                                                      test="child::tei:placeName[@type = 'alternative-name' or contains(@type, 'namensvariante')][1]">
                                                   <xsl:text> (</xsl:text>
                                                   <xsl:for-each
-                                                  select="child::tei:placeName[@type = 'alternative-name']">
+                                                      select="distinct-values(child::tei:placeName[@type = 'alternative-name' or contains(@type, 'namensvariante')])">
                                                   <xsl:value-of select="normalize-space(.)"/>
                                                   <xsl:if test="position() != last()">
                                                   <xsl:text>, </xsl:text>
@@ -471,7 +471,7 @@
                                                   </xsl:attribute>
                                                   <xsl:attribute name="rel">
                                                   <xsl:text>noopener</xsl:text>
-                                                  </xsl:attribute> KARTE </a>
+                                                  </xsl:attribute> <i class="fa-solid fa-location-dot"></i> </a>
                                                   </xsl:if>
                                                   </li>
                                                   </xsl:for-each>
@@ -485,6 +485,7 @@
                                                 <div class="card-body-anhang">
                                                   <div class="kommentarhang">
                                                   <legend>Verschiedenes</legend>
+                                                      <xsl:text>DA SIND WIR</xsl:text>
                                                   <h4>Zitiervorschlag</h4>
                                                   <p><xsl:value-of select="$doc_title"/>. In:
                                                   Hermann Bahr, Arthur Schnitzler: Briefwechsel,
