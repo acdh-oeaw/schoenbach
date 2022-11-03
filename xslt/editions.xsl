@@ -227,6 +227,7 @@
                                                   </xsl:for-each>
                                                   </xsl:when>
                                                   <xsl:otherwise>
+                                                      <h4>Archivzeuge</h4>
                                                   <xsl:apply-templates
                                                   select="descendant::tei:teiHeader/descendant::tei:witness"
                                                   />
