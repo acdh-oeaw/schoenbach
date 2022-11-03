@@ -205,53 +205,57 @@
                                             <div class="tab-pane fade fade" id="nav-archiv"
                                                 role="tabpanel" aria-labelledby="nav-archiv-tab">
                                                 <div class="card-body-anhang">
-                                                    <div class="kommentarhang">
+                                                  <div class="kommentarhang">
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:correspDesc">
                                                   <h4>Versandverlauf</h4>
-                                                      
                                                   <xsl:apply-templates
                                                   select="descendant::tei:teiHeader/descendant::tei:correspDesc"
                                                   />
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listWit">
-                                                      
-                                                      <xsl:choose>
-                                                          <xsl:when test="descendant::tei:teiHeader/descendant::tei:listWit/tei:witness[2]">
-                                                              <h4>Archivzeuge <xsl:value-of select="position()"/>
-                                                              </h4>
-                                                              <xsl:for-each
-                                                                  select="descendant::tei:teiHeader/descendant::tei:witness">
-                                                                  <xsl:apply-templates select="."/>
-                                                              </xsl:for-each>
-                                                          </xsl:when>
-                                                          <xsl:otherwise>
-                                                              <xsl:apply-templates select="descendant::tei:teiHeader/descendant::tei:witness"/>
-                                                          </xsl:otherwise>
-                                                      </xsl:choose>
-                                                      
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="descendant::tei:teiHeader/descendant::tei:listWit/tei:witness[2]">
+                                                  <h4>Archivzeuge <xsl:value-of select="position()"
+                                                  />
+                                                  </h4>
+                                                  <xsl:for-each
+                                                  select="descendant::tei:teiHeader/descendant::tei:witness">
+                                                  <xsl:apply-templates select="."/>
+                                                  </xsl:for-each>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:apply-templates
+                                                  select="descendant::tei:teiHeader/descendant::tei:witness"
+                                                  />
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listBibl">
-                                                      
                                                   <xsl:choose>
-                                                      <xsl:when test="descendant::tei:teiHeader/descendant::tei:listBibl/tei:bibl[2]">
-                                                          <h4><xsl:text>Druck</xsl:text></h4>
-                                                      </xsl:when>
-                                                      <xsl:otherwise>
-                                                          <h4><xsl:text>Druck </xsl:text>
-                                                              <xsl:value-of select="position()"/>
-                                                          </h4>
-                                                      </xsl:otherwise>
+                                                  <xsl:when
+                                                  test="descendant::tei:teiHeader/descendant::tei:listBibl/tei:bibl[2]">
+                                                  <h4>
+                                                  <xsl:text>Druck</xsl:text>
+                                                  </h4>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <h4>
+                                                  <xsl:text>Druck </xsl:text>
+                                                  <xsl:value-of select="position()"/>
+                                                  </h4>
+                                                  </xsl:otherwise>
                                                   </xsl:choose>
                                                   <xsl:for-each
                                                   select="descendant::tei:teiHeader/descendant::tei:listBibl/tei:biblStruct">
-                                                  <xsl:value-of select="foo:bibliografischeAngabe(.)"/>
+                                                  <xsl:value-of
+                                                  select="foo:bibliografischeAngabe(.)"/>
                                                   </xsl:for-each>
-                                                      
                                                   </xsl:if>
-                                                    </div>
+                                                  </div>
                                                 </div>
                                             </div>
                                             <div class="tab-pane" id="nav-person" role="tabpanel"
@@ -276,11 +280,11 @@
                                                   test="child::tei:persName[1]/tei:forename[1]">
                                                   <xsl:value-of select="child::tei:forename[1]"/>
                                                   </xsl:when>
-                                                      <xsl:when test="child::tei:surname[1]">
-                                                          <xsl:value-of select="child::tei:surname[1]"/>
-                                                      </xsl:when>
+                                                  <xsl:when test="child::tei:surname[1]">
+                                                  <xsl:value-of select="child::tei:surname[1]"/>
+                                                  </xsl:when>
                                                   <xsl:otherwise>
-                                                   <xsl:value-of select="."/>
+                                                  <xsl:value-of select="."/>
                                                   </xsl:otherwise>
                                                   </xsl:choose>
                                                   </xsl:variable>
@@ -399,10 +403,10 @@
                                                   select="child::tei:placeName[1]/text()"/>
                                                   </a>
                                                   <xsl:if
-                                                      test="child::tei:placeName[@type = 'alternative-name' or contains(@type, 'namensvariante')][1]">
+                                                  test="child::tei:placeName[@type = 'alternative-name' or contains(@type, 'namensvariante')][1]">
                                                   <xsl:text> (</xsl:text>
                                                   <xsl:for-each
-                                                      select="distinct-values(child::tei:placeName[@type = 'alternative-name' or contains(@type, 'namensvariante')])">
+                                                  select="distinct-values(child::tei:placeName[@type = 'alternative-name' or contains(@type, 'namensvariante')])">
                                                   <xsl:value-of select="normalize-space(.)"/>
                                                   <xsl:if test="position() != last()">
                                                   <xsl:text>, </xsl:text>
@@ -421,15 +425,16 @@
                                                 aria-labelledby="nav-verschiedenes-tab">
                                                 <div class="card-body-anhang">
                                                   <div class="kommentarhang">
-                                                  <legend>Verschiedenes</legend>
                                                   <h4>Zitiervorschlag</h4>
-                                                  <p><xsl:value-of select="$doc_title"/>. In:
-                                                  Fünf Briefe an Anton E. Schönbach. Digitale
-                                                  Edition Austrian Centre for Digital Humanities and Cultural Heritage, November 2022,
-                                                  Stand <xsl:value-of select="$currentDate"/><xsl:if test="$handle != ''">
-                                                      <xsl:text> </xsl:text>
-                                                      <xsl:value-of select="$handle"/>
-                                                      </xsl:if>.</p>
+                                                  <p><xsl:value-of select="$doc_title"/>. In: Fünf
+                                                  Briefe an Anton E. Schönbach. Digitale Edition
+                                                  Austrian Centre for Digital Humanities and
+                                                  Cultural Heritage, November 2022, Stand
+                                                  <xsl:value-of select="$currentDate"/><xsl:if
+                                                  test="$handle != ''">
+                                                  <xsl:text> </xsl:text>
+                                                  <xsl:value-of select="$handle"/>
+                                                  </xsl:if>.</p>
                                                   <h4>Quellcode</h4>
                                                   <p>Code als <a class="ml-3" data-toggle="tooltip"
                                                   title="Link zur TEI-Datei">
@@ -438,7 +443,10 @@
                                                   </xsl:attribute>
                                                   <i class="fa-lg far fa-file-code"/> TEI </a>
                                                   </p>
-                                                  <h4><a href="https://correspsearch.net/de/suche.html" target="_blank">correspSearch</a></h4>
+                                                  <h4>
+                                                  <a href="https://correspsearch.net/de/suche.html"
+                                                  target="_blank">correspSearch</a>
+                                                  </h4>
                                                   <p>
                                                   <div id="csLink" data-correspondent-1-name=""
                                                   data-correspondent-1-id=""
@@ -1558,21 +1566,20 @@
     </xsl:template>
     <xsl:template match="tei:physDesc">
         <div>
-        <p>
-            <xsl:apply-templates/>
-        </p>
+            <p>
+                <xsl:apply-templates/>
+            </p>
         </div>
     </xsl:template>
     <xsl:template match="tei:msIdentifier">
-       
-        <p><b>Signatur: </b>
+        <p>
+            <b>Signatur: </b>
             <xsl:value-of select="concat(tei:settlement, ', ', tei:repository)"/>
             <xsl:if test="tei:idno and not(tei:idno = '') and not(empty(tei:idno))">
                 <xsl:text>, </xsl:text>
                 <xsl:value-of select="tei:idno"/>
             </xsl:if>
         </p>
-       
     </xsl:template>
     <!-- Streichung -->
     <xsl:template match="tei:del[not(ancestor::tei:physDesc)]"/>
@@ -2540,46 +2547,71 @@
     <xsl:template match="tei:objectDesc/tei:desc[not(@type)]">
         <xsl:text>XXXX desc-Fehler</xsl:text>
     </xsl:template>
-    
     <xsl:template match="tei:correspDesc">
-        <dl>
-            <xsl:apply-templates select="tei:correspAction"/>
-        </dl>
+        <xsl:apply-templates select="tei:correspAction"/>
+        
     </xsl:template>
-    
     <xsl:template match="tei:correspAction">
-        <dt>
+        <p>
             <xsl:choose>
-                <xsl:when test="@type='sent'">
-                    <xsl:text>Versand </xsl:text>
+                <xsl:when test="@type = 'sent'">
+                    <xsl:text>Versand</xsl:text>
                 </xsl:when>
-                <xsl:when test="@type='forwarded'">
-                    <xsl:text>Weiterleitung </xsl:text>
+                <xsl:when test="@type = 'forwarded'">
+                    <xsl:text>Weitergeleitet</xsl:text>
                 </xsl:when>
-                <xsl:when test="@type='transmitted'">
-                    <xsl:text>Übermittlung </xsl:text>
+                <xsl:when test="@type = 'transmitted'">
+                    <xsl:text>Übermittelt</xsl:text>
                 </xsl:when>
-                <xsl:when test="@type='arrived'">
-                    <xsl:text>Ankunft </xsl:text>
+                <xsl:when test="@type = 'arrived'">
+                    <xsl:text>Angekommen</xsl:text>
                 </xsl:when>
-                <xsl:when test="@type='received'">
-                    <xsl:text>Erhalt </xsl:text>
+                <xsl:when test="@type = 'received'">
+                    <xsl:text>Erhalten</xsl:text>
                 </xsl:when>
             </xsl:choose>
-        </dt>
-        <dd>
+        <xsl:if test="tei:persName">
+            <xsl:text> von </xsl:text>
             <xsl:for-each select="tei:persName">
-                <xsl:value-of select="."/><br/>
+                <xsl:choose>
+                    <xsl:when test="contains(., ', ')">
+                        <xsl:value-of select="tokenize(., ', ')[2]"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="tokenize(., ', ')[1]"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
             </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="tei:placeName">
+            <xsl:text> in </xsl:text>
             <xsl:for-each select="tei:placeName">
-                <xsl:value-of select="."/><br/>
+                <xsl:choose>
+                    <xsl:when test="contains(., ', ')">
+                        <xsl:value-of select="tokenize(., ', ')[2]"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="tokenize(., ', ')[1]"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
             </xsl:for-each>
-            <xsl:for-each select="tei:date">
-                <xsl:value-of select="."/><br/>
-            </xsl:for-each>
-        </dd>
+        </xsl:if>
+            <xsl:if test="tei:date">
+                <xsl:text> am </xsl:text>
+                <xsl:value-of select="tei:date"/>
+            </xsl:if>
+        </p>
     </xsl:template>
-    
     <xsl:function name="foo:bibliografischeAngabe">
         <xsl:param name="teiBibl-Element" as="node()"/>
         <xsl:choose>
@@ -2588,58 +2620,41 @@
                 <xsl:value-of select="foo:analytic-angabe($teiBibl-Element)"/>
                 <xsl:text> </xsl:text>
                 <xsl:text>In: </xsl:text>
-                <xsl:value-of
-                    select="foo:monogr-angabe($teiBibl-Element/tei:monogr[last()])"/>
+                <xsl:value-of select="foo:monogr-angabe($teiBibl-Element/tei:monogr[last()])"/>
             </xsl:when>
             <!-- Jetzt abfragen ob mehrere monogr -->
             <xsl:when test="count($teiBibl-Element/tei:monogr) = 2">
-                <xsl:value-of
-                    select="foo:monogr-angabe($teiBibl-Element/tei:monogr[last()])"/>
+                <xsl:value-of select="foo:monogr-angabe($teiBibl-Element/tei:monogr[last()])"/>
                 <xsl:text>. Band</xsl:text>
                 <xsl:text>: </xsl:text>
-                <xsl:value-of
-                    select="foo:monogr-angabe($teiBibl-Element/tei:monogr[1])"/>
+                <xsl:value-of select="foo:monogr-angabe($teiBibl-Element/tei:monogr[1])"/>
             </xsl:when>
             <!-- Ansonsten ist es eine einzelne monogr -->
             <xsl:otherwise>
-                <xsl:value-of
-                    select="foo:monogr-angabe($teiBibl-Element/tei:monogr[last()])"/>
+                <xsl:value-of select="foo:monogr-angabe($teiBibl-Element/tei:monogr[last()])"/>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:if
-            test="not(empty($teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'sec']))">
+        <xsl:if test="not(empty($teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'sec']))">
             <xsl:text>, Sec. </xsl:text>
-            <xsl:value-of
-                select="$teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'sec']"
-            />
+            <xsl:value-of select="$teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'sec']"/>
         </xsl:if>
-        <xsl:if
-            test="not(empty($teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'pp']))">
+        <xsl:if test="not(empty($teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'pp']))">
             <xsl:text>, S. </xsl:text>
-            <xsl:value-of
-                select="$teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'pp']"
-            />
+            <xsl:value-of select="$teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'pp']"/>
         </xsl:if>
-        <xsl:if
-            test="not(empty($teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'col']))">
+        <xsl:if test="not(empty($teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'col']))">
             <xsl:text>, Sp. </xsl:text>
-            <xsl:value-of
-                select="$teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'col']"
-            />
+            <xsl:value-of select="$teiBibl-Element/tei:monogr//tei:biblScope[@unit = 'col']"/>
         </xsl:if>
         <xsl:if test="not(empty($teiBibl-Element/tei:series))">
             <xsl:text> (</xsl:text>
             <xsl:value-of select="$teiBibl-Element/tei:series/tei:title"/>
             <xsl:if test="$teiBibl-Element/tei:series/tei:biblScope">
                 <xsl:text>, </xsl:text>
-                <xsl:value-of select="$teiBibl-Element/tei:series/tei:biblScope"
-                />
+                <xsl:value-of select="$teiBibl-Element/tei:series/tei:biblScope"/>
             </xsl:if>
             <xsl:text>)</xsl:text>
         </xsl:if>
         <xsl:text>.</xsl:text>
-        
     </xsl:function>
-    
-       
 </xsl:stylesheet>
