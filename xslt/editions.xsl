@@ -202,10 +202,10 @@
                                                   </div>
                                                 </div>
                                             </div>
-                                            <div class="tab-pane" id="nav-archiv" role="tabpanel"
-                                                aria-labelledby="nav-archiv-tab">
-                                                <div class="card-body-anhang"  style="display: block;">
-                                                    <div class="kommentarhang-versand">
+                                            <div class="tab-pane fade fade" id="nav-archiv"
+                                                role="tabpanel" aria-labelledby="nav-archiv-tab">
+                                                <div class="card-body-anhang">
+                                                    <div class="kommentarhang">
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:correspDesc">
                                                   <h4>Versandverlauf</h4>
