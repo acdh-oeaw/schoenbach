@@ -214,7 +214,7 @@
                 </place>
                 <place xml:id="pmb860">
                     <placeName>Graz</placeName>
-                    <placeName type="alternative-name">Grätz (Graz)</placeName>
+                    <placeName type="alternative-name">Grätz</placeName>
                     <placeName type="legacy-name-merge">Graz Stadt</placeName>
                     <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
                     <desc type="entity_type_id">14</desc>

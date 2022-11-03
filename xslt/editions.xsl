@@ -205,19 +205,19 @@
                                             <div class="tab-pane" id="nav-archiv" role="tabpanel"
                                                 aria-labelledby="nav-archiv-tab">
                                                 <div class="card-body-anhang">
-                                                  <div class="kommentarhang">
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:correspDesc">
+                                                      <div class="kommentarhang">
                                                   <h3>Versandverlauf</h3>
-                                                      <div>
+                                                      
                                                   <xsl:apply-templates
                                                   select="descendant::tei:teiHeader/descendant::tei:correspDesc"
                                                   />
-                                                      </div>
+                                                             </div>
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listWit">
-                                                      <div>
+                                                      <div class="kommentarhang">
                                                       <xsl:choose>
                                                           <xsl:when test="descendant::tei:teiHeader/descendant::tei:listWit/tei:witness[2]">
                                                               <h3>Archivzeuge <xsl:value-of select="position()"/>
@@ -235,7 +235,7 @@
                                                   </xsl:if>
                                                   <xsl:if
                                                   test="descendant::tei:teiHeader/descendant::tei:listBibl">
-                                                      <div>
+                                                      <div class="kommentarhang">
                                                   <xsl:choose>
                                                       <xsl:when test="descendant::tei:teiHeader/descendant::tei:listBibl/tei:bibl[2]">
                                                           <h3><xsl:text>Druck</xsl:text></h3>
@@ -252,7 +252,6 @@
                                                   </xsl:for-each>
                                                       </div>
                                                   </xsl:if>
-                                                  </div>
                                                 </div>
                                             </div>
                                             <div class="tab-pane" id="nav-person" role="tabpanel"
