@@ -76,17 +76,14 @@
                            <incident type="postal">
                               <desc>
                                  <stamp n="1">
-                                    <placeName ref="#pmb65192">Zdislavice
-                                                    (Zdounky)</placeName>
+                                    <placeName ref="#pmb65192">Zdislavice (Zdounky)</placeName>
                                  </stamp>
                               </desc>
                            </incident>
                            <incident type="postal">
                               <desc>
                                  <stamp n="2">
-                                    <placeName ref="#pmb118164">Borowitz-XXXX</placeName>
-                                    <date when="XXXX">XXXX</date>
-                                    <time>XXXX</time>
+                                    <placeName ref="#pmb118164">Borowitz</placeName>
                                  </stamp>
                               </desc>
                            </incident>
@@ -140,9 +137,7 @@
             <opener>
                <dateline rend="right">
                   <pb facs="Ebner-Eschenbach_00003"/>
-                  <rs type="place" ref="#pmb65192">Zdisslawita Post Zdounek Mähren</rs>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1911-09-01">1. Sept. 911</date>.</dateline>
+                  <rs type="place" ref="#pmb65192">Zdisslawita Post Zdounek Mähren</rs><lb/><date when="1911-09-01">1. Sept. 911</date>.</dateline>
                <salute rend="left">Hochverehrte teure Frau!</salute>
             </opener>
             <p>Auf das Tiefste ergriffen durch die eben empfangene Trauerbotschaft des Todes

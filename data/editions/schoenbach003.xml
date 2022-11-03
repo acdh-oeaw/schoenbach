@@ -99,14 +99,15 @@
     <text>
         <body>
             <div type="writingSession" n="1">
-                <p>
+                <p rend="center">
                     <pb facs="1905-10-20"/>
-                    <hi rend="pre-print">Ferdinand von Saar</hi> erlaubt sich,
+                    <hi rend="pre-print">Ferdinand von Saar</hi></p>
+                <p>erlaubt sich,
                     verehrungsvollst herzliche Glückwünsche darzubringen.</p>
                 <closer>
                     <rs type="place" ref="#pmb69">
                         <hi rend="latintype">Wien</hi> – Döbling</rs>.
-                    <date when="1905-10-20">20/10. 1905’</date>
+                    <date when="1905-10-20">20/10.1905’</date>
                 </closer>
             </div>
         </body>
