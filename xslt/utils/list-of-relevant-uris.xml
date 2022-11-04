@@ -80,6 +80,10 @@ are but links to pdfs etc. an URL can be added
         <caption>geoNames</caption>
         <color>#363</color>
     </item>
-    
+    <item>
+        <abbr>oebl</abbr>
+        <caption>ÖBL</caption>
+        <color>#a50021</color>
+    </item>
    
 </list>

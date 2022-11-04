@@ -258,20 +258,19 @@
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
                     </place>
-                    <place xml:id="pmb118164">
-                        <placeName>Borovnice</placeName>
+                    <place xml:id="pmb118233">
+                        <placeName>Zborovice</placeName>
                         <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
                         <desc type="entity_type_id">1412</desc>
                         <location type="coords">
-                            <geo>50,50916 15,61719</geo>
+                            <geo>49,24889 17,28464</geo>
                         </location>
                         <location type="located_in_place">
                             <placeName key="place__43430">Tschechische Republik</placeName>
                             <geo>49,75 15,0</geo>
                         </location>
-                        <idno type="URL" subtype="pmb"
-                            >https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
-                        <idno type="URL" subtype="geonames">https://sws.geonames.org/3078943/</idno>
+                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118233/</idno>
+                        <idno type="URL">https://sws.geonames.org/3061768/</idno>
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>

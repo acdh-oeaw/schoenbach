@@ -76,14 +76,14 @@
                            <incident type="postal">
                               <desc>
                                  <stamp n="1">
-                                    <placeName ref="#pmb65192">Zdislavice (Zdounky)</placeName>
+                                    <placeName ref="#pmb65192">Zdislavice (Zdounky) Zdislawitz (Zdounek)</placeName>
                                  </stamp>
                               </desc>
                            </incident>
                            <incident type="postal">
                               <desc>
                                  <stamp n="2">
-                                    <placeName ref="#pmb118164">Borowitz</placeName>
+                                    <placeName ref="#pmb118233">Zborowitz</placeName>
                                  </stamp>
                               </desc>
                            </incident>
@@ -137,7 +137,7 @@
             <opener>
                <dateline rend="right">
                   <pb facs="Ebner-Eschenbach_00003"/>
-                  <rs type="place" ref="#pmb65192">Zdisslawita Post Zdounek Mähren</rs><lb/><date when="1911-09-01">1. Sept. 911</date>.</dateline>
+                  <rs type="place" ref="#pmb65192">Zdisslawitz Post Zdounek Mähren</rs><lb/><date when="1911-09-01">1. Sept. 911</date>.</dateline>
                <salute rend="left">Hochverehrte teure Frau!</salute>
             </opener>
             <p>Auf das Tiefste ergriffen durch die eben empfangene Trauerbotschaft des Todes
@@ -259,19 +259,22 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65192/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3061645/</idno>
             </place>
-            <place xml:id="pmb118164">
-               <placeName>Borovnice</placeName>
+            <place xml:id="pmb118233">
+               <placeName>Zborovice</placeName>
                <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
-                  <geo>50,50916 15,61719</geo>
+                  <geo>49,24889 17,28464</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb43430">Tschechische Republik</placeName>
+                  <placeName key="place__43430">Tschechische Republik</placeName>
                   <geo>49,75 15,0</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/3078943/</idno>
+               <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118233/</idno>
+               <idno type="URL">https://sws.geonames.org/3061768/</idno>
+               <listBibl>
+                  <bibl type="collections" n="7">Default import collection</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb860">
                <placeName>Graz</placeName>
