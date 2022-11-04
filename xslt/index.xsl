@@ -71,6 +71,20 @@
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-4">
+                                <a href="listperson.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/personen.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-books"></i> Personen
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>                                    
+                            </div>
+                            <div class="col-md-4">
                                 <a href="listwork.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
