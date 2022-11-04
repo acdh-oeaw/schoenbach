@@ -47,7 +47,7 @@
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></place>
                     <place xml:id="pmb50">
                         <placeName>Wien</placeName>
                         <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt
@@ -190,7 +190,7 @@
                             <bibl type="collections" n="5">legalkraus</bibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note></place>
                     <place xml:id="pmb118167">
                         <placeName>Glacisstraße</placeName>
                         <desc type="entity_type">Straße (K.STR)</desc>
@@ -228,19 +228,19 @@
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
                     <note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
-                    <place xml:id="pmb118164">
-                        <placeName>Borovnice</placeName>
+                    <place xml:id="pmb118233">
+                        <placeName>Zborovice</placeName>
                         <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
                         <desc type="entity_type_id">1412</desc>
                         <location type="coords">
-                            <geo>50,50916 15,61719</geo>
+                            <geo>49,24889 17,28464</geo>
                         </location>
                         <location type="located_in_place">
                             <placeName key="place__43430">Tschechische Republik</placeName>
                             <geo>49,75 15,0</geo>
                         </location>
-                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118164/</idno>
-                        <idno type="URL" subtype="geonames">https://sws.geonames.org/3078943/</idno>
+                        <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/118233/</idno>
+                        <idno type="URL">https://sws.geonames.org/3061768/</idno>
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>

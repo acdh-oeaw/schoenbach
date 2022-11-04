@@ -225,8 +225,8 @@
          </acdh:Place>
       </acdh:hasSpatialCoverage>
       <acdh:hasSpatialCoverage>
-         <acdh:Place rdf:about="https://id.acdh.oeaw.ac.at/pmb/118164">
-            <acdh:hasTitle xml:lang="und">BorovniceTschechische Republik</acdh:hasTitle>
+         <acdh:Place rdf:about="https://id.acdh.oeaw.ac.at/pmb/118233">
+            <acdh:hasTitle xml:lang="und">ZboroviceTschechische Republik</acdh:hasTitle>
          </acdh:Place>
       </acdh:hasSpatialCoverage>
       <acdh:hasSpatialCoverage>
