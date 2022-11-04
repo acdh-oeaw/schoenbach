@@ -13,6 +13,22 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="card-body-index">
+            <div id="mentions">
+                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
+                    <p class="buttonreihe">
+                        <xsl:variable name="idnos-of-current" as="node()">
+                            <xsl:element name="nodeset_person">
+                                <xsl:for-each select="tei:idno">
+                                    <xsl:copy-of select="."/>
+                                </xsl:for-each>
+                            </xsl:element>
+                        </xsl:variable>
+                        <xsl:call-template name="mam:idnosToLinks">
+                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                        </xsl:call-template>
+                    </p>
+                </xsl:if>
+            </div>
             <xsl:variable name="lemma-name" select="tei:persName[(position() = 1)]" as="node()"/>
             <xsl:variable name="namensformen" as="node()">
                 <xsl:element name="listPerson">
@@ -126,22 +142,7 @@
                     </xsl:if>
                 </p>
             </xsl:if>
-            <div id="mentions">
-                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                    <p class="buttonreihe">
-                        <xsl:variable name="idnos-of-current" as="node()">
-                            <xsl:element name="nodeset_person">
-                                <xsl:for-each select="tei:idno">
-                                    <xsl:copy-of select="."/>
-                                </xsl:for-each>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="mam:idnosToLinks">
-                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                        </xsl:call-template>
-                    </p>
-                </xsl:if>
-            </div>
+            
             <div class="werke">
                 <xsl:variable name="author-ref"
                     select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
