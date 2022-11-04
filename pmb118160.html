@@ -1,13 +1,13 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:foo="whatever">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mam="whatever">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Blansko" />
+      <meta name="apple-mobile-web-app-title" content="Anna Schönbach" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
-      <title>Blansko</title>
+      <title>Anna Schönbach</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -42,36 +42,23 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1 align="center">Blansko</h1>
+                  <h2 align="center">Anna Schönbach <span class="lebensdaten">(1874 – 20. 10. 1918 Graz)</span></h2>
                </div>
-               <div class="card-body">
-                  <div xmlns:mam="whatever" class="container-fluid">
-                     <div class="card-body-index">
-                        <div id="mentions">
-                           <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/100860/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://d-nb.info/gnd/4208803-3" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white">GND</span></a> </p>
-                        </div>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    49.363039, 16.644459
-                                                        L.marker([49.363039, 16.644459]).addTo(mymap)
-                                                        .bindPopup("<b>Blansko</b>").openPopup();
-                                                </script><div class="card"></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
-                              <legend>Erwähnungen</legend>
-                              <ul>
-                                 <li>Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888 <a href="schoenbach004.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888 <a href="schoenbach002.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul></span></div>
-                     </div>
+               <div xmlns:df="http://example.com/df" class="card-body-index">
+                  <p class="personenname"></p>
+                  <p><i>Haushälterin</i></p>
+                  <div id="mentions">
+                     <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/118160/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://d-nb.info/gnd/116859970" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white">GND</span></a> </p>
                   </div>
+                  <div class="werke">
+                     <p></p>
+                     <ul class="dashed"></ul>
+                  </div>
+                  <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                        <legend>Erwähnungen</legend>
+                        <ul>
+                           <li>Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911 <a href="schoenbach005.html"><i class="fas fa-external-link-alt"></i></a></li>
+                        </ul></span></div>
                </div>
             </div>
          </div>

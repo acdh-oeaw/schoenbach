@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Personenverzeichnis</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listPerson>
+                    <person xml:id="pmb11216">
+                        <persName>
+                            <forename>Marie von</forename>
+                            <surname>Ebner-Eschenbach</surname>
+                        </persName>
+                        <persName type="person_geburtsname_nachname">von Dubsky</persName>
+                        <persName type="person_geburtsname-vorname">Dubský</persName>
+                        <persName type="person_geburtsname_nachname">von Třebomyslice</persName>
+                        <birth>
+                            <date when-iso="1830-09-13">13.09.1830</date>
+                            <settlement key="65192">
+                                <placeName type="pref">Zdislavice</placeName>
+                                <location>
+                                    <geo>49,22351 17,26127</geo>
+                                </location>
+                            </settlement>
+                        </birth>
+                        <death>
+                            <date when-iso="1916-03-12">12.03.1916</date>
+                            <settlement key="50">
+                                <placeName type="pref">Wien</placeName>
+                                <location>
+                                    <geo>48,2066 16,37341</geo>
+                                </location>
+                            </settlement>
+                        </death>
+                        <sex value="female"/>
+                        <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+                        <idno type="URL" subtype="schnitzler-tagebuch">
+                            https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14602 </idno>
+                        <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118528661</idno>
+                        <idno type="URL" subtype="schnitzler-bahr">
+                            https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11216.html </idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11216</idno>
+                        <idno type="URL" subtype="schnitzler-briefe">
+                            https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11216 </idno>
+                        <idno type="URL" subtype="schnitzler-lektueren">
+                            https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11216.html </idno>
+                        <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49728</idno>
+                        <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q93525</idno>
+                        <affiliation when-iso="1910-04-26">
+                            <term key="1153">in Bezug zu</term>
+                            <orgName key="46791">Ebner-Eschenbach-Stiftung</orgName>
+                            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46791/</idno>
+                            <idno type="URL" subtype="schnitzler-briefe">
+                                https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb46791
+                            </idno>
+                        </affiliation>
+                        <listBibl>
+                            <bibl type="collections" n="3">Manuell angelegt</bibl>
+                            <bibl type="collections" n="12">Fackel</bibl>
+                        </listBibl>
+                    <note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></person>
+                    <person xml:id="pmb12602">
+                        <persName>
+                            <forename>Ferdinand von</forename>
+                            <surname>Saar</surname>
+                        </persName>
+                        <birth>
+                            <date when-iso="1833-09-30">30.09.1833</date>
+                            <settlement key="50">
+                                <placeName type="pref">Wien</placeName>
+                                <location>
+                                    <geo>48,2066 16,37341</geo>
+                                </location>
+                            </settlement>
+                        </birth>
+                        <death>
+                            <date when-iso="1906-07-24">24.07.1906</date>
+                            <settlement key="50">
+                                <placeName type="pref">Wien</placeName>
+                                <location>
+                                    <geo>48,2066 16,37341</geo>
+                                </location>
+                            </settlement>
+                        </death>
+                        <sex value="male"/>
+                        <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+                        <idno type="URL" subtype="schnitzler-tagebuch">
+                            https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19493 </idno>
+                        <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118604449</idno>
+                        <idno type="URL" subtype="schnitzler-bahr">
+                            https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12602.html </idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12602</idno>
+                        <idno type="URL" subtype="schnitzler-briefe">
+                            https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12602 </idno>
+                        <idno type="URL" subtype="schnitzler-lektueren">
+                            https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12602.html </idno>
+                        <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43232</idno>
+                        <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q78977</idno>
+                        <listEvent>
+                            <event key="45225" when-iso="1893-01-14">
+                                <desc n="1256">ist Arbeitskraft bei</desc>
+                                <label>Vorlesung von Ferdinand von Saar, 14.1.1893</label>
+                                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45225/</idno>
+                            </event>
+                        </listEvent>
+                        <listBibl>
+                            <bibl type="collections" n="3">Manuell angelegt</bibl>
+                            <bibl type="collections" n="12">Fackel</bibl>
+                        </listBibl>
+                    <note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></person>
+                    <person xml:id="pmb118160">
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Schönbach</surname>
+                        </persName>
+                        <persName type="person_geburtsname_nachname">Pöltl</persName>
+                        <birth>
+                            <date notBefore-iso="1874-01-01" when-iso="1874-07-02" notAfter-iso="1874-12-31">1874</date>
+                        </birth>
+                        <death>
+                            <date when-iso="1918-10-20">1918-10-20</date>
+                            <settlement key="860">
+                                <placeName type="pref">Graz</placeName>
+                                <location>
+                                    <geo>47,06667 15,43333</geo>
+                                </location>
+                            </settlement>
+                        </death>
+                        <sex value="female"/>
+                        <occupation key="939">Haushälter/Haushälterin</occupation>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118160/</idno>
+                        <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116859970</idno>
+                        <listBibl>
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </listBibl>
+                    <note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></person>
+                    <person xml:id="pmb3330">
+                        <persName>
+                            <forename>Anton Emanuel</forename>
+                            <surname>Schönbach</surname>
+                        </persName>
+                        <birth>
+                            <date when-iso="1848-05-29">1848-05-29</date>
+                            <settlement key="54957">
+                                <placeName type="pref">Rumburk</placeName>
+                                <location>
+                                    <geo>50,95151 14,55699</geo>
+                                </location>
+                            </settlement>
+                        </birth>
+                        <death>
+                            <date when-iso="1911-08-25">1911-08-25</date>
+                            <settlement key="38711">
+                                <placeName type="pref">Schruns</placeName>
+                                <location>
+                                    <geo>47,06667 9,91667</geo>
+                                </location>
+                            </settlement>
+                        </death>
+                        <sex value="male"/>
+                        <occupation key="239">Germanist/Germanistin</occupation>
+                        <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116859989</idno>
+                        <idno type="URL" subtype="schnitzler-bahr">
+                            https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3330.html </idno>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3330</idno>
+                        <idno type="URL" subtype="wikidata">https://www.wikidata.org/entity/Q589156</idno>
+                        <listBibl>
+                            <bibl type="collections" n="8">manually created entity</bibl>
+                        </listBibl>
+                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>
