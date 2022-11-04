@@ -117,7 +117,7 @@
                             <bibl type="collections" n="3">Manuell angelegt</bibl>
                             <bibl type="collections" n="12">Fackel</bibl>
                         </listBibl>
-                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></person>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></person>
                     <person xml:id="pmb118160">
                         <persName>
                             <forename>Anna</forename>
@@ -177,7 +177,7 @@
                         <listBibl>
                             <bibl type="collections" n="8">manually created entity</bibl>
                         </listBibl>
-                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></person>
+                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></person>
                 </listPerson>
             </div>
         </body>
