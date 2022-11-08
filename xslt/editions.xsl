@@ -102,7 +102,7 @@
                             <div class="card-body-normalertext" data-index="true">
                                 <xsl:variable name="facsimiles">
                                     <xsl:value-of
-                                        select="distinct-values(descendant::tei:facsimile[1]/tei:surface[1]/tei:graphic/@url)"
+                                        select="(distinct-values(descendant::tei:facsimile[1]/tei:surface[1]/tei:graphic/@url))"
                                     />
                                 </xsl:variable>
                                 <xsl:variable name="url-of-facsimile">
@@ -138,6 +138,15 @@
                                         pinchRotate: true}
                                         });
                                     </script>
+                                    <div class="image-rights">
+                                        <xsl:text>Bildrechte © </xsl:text>
+                                        <xsl:value-of
+                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:repository[1]"/>
+                                        <xsl:text>, </xsl:text>
+                                        <xsl:value-of
+                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:settlement[1]"
+                                        />
+                                    </div>
                                 </div>
                                 <xsl:if test="descendant::tei:footNote">
                                     <p/>

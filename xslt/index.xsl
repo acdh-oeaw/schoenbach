@@ -26,7 +26,7 @@
                     <div class="wrapper" id="wrapper-hero">
                         <!--<div class="wrapper" id="wrapper-hero-content" >
                             <div class="container hero-dark" id="wrapper-hero-inner" tabindex="-1">-->
-                                <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
+                                <div id="schoenbacgIndexCarousel" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#schoenbachIndexCarousel" data-slide-to="0" class="active"></li>
                                     </ol>
