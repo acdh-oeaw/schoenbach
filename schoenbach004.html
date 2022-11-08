@@ -65,6 +65,27 @@
                   </div>
                </div>
                <div class="card-body-normalertext" data-index="true">
+                  <div id="openseadragon-photo" style="height:800px;"><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/images/",
+                                        sequenceMode : true,
+                                        showNavigationControl: true,
+                                        showReferenceStrip: true,
+                                        defaultZoomLevel : 0,
+                                        fitHorizontally : true,
+                                        tileSources: [1888-01-03_a.jp2/info.json", 1888-01-03_b.jp2/info.json"],
+                                        // Initial rotation angle
+                                        degrees: 0,
+                                        // Show rotation buttons
+                                        showRotationControl: true,
+                                        // Enable touch rotation on tactile devices
+                                        gestureSettingsTouch: {
+                                        pinchRotate: true}
+                                        });
+                                    </script><div class="image-rights">Bildrechte © Österreichische Akademie der Wissenschaften, Wien</div>
+                  </div>
                   
                   <div class="div">
                      
@@ -191,7 +212,7 @@
                                        Briefe an Anton E. Schönbach. Digitale Edition
                                        Austrian Centre for Digital Humanities and
                                        Cultural Heritage, November 2022, Stand
-                                       4. 11. 2022.</p>
+                                       8. 11. 2022.</p>
                                     <h4>Quellcode</h4>
                                     <p>Code als <a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="schoenbach004.xml"><i class="fa-lg far fa-file-code"></i> TEI </a></p>
                                     <h4><a href="https://correspsearch.net/de/suche.html" target="_blank">correspSearch</a></h4>
