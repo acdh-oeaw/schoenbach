@@ -39,7 +39,7 @@
                                                 <p>Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass 
                                                 des Germanisten Anton Emanuel Schönbach (1848–1911) aufbewahrt. Daraus veröffentlichen 
                                                 wir vier Briefe von Ferdinand von Saar an ihn, sowie ein Kondolenzschreiben von Marie von
-                                                Ebner Eschenbach an seine Witwe.</p>
+                                                Ebner-Eschenbach an seine Witwe.</p>
                                                 <button class="btn btn-round">
                                                     <a href="toc.html">Zu den Briefen</a>
                                                 </button>

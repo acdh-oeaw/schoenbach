@@ -117,6 +117,7 @@
                                 </xsl:variable>
                                 
                                 <xsl:apply-templates select=".//tei:body"/>
+                                <p/>
                                 <div id="openseadragon-photo" style="height:800px;">
                                     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/openseadragon.min.js"/>
                                     <script type="text/javascript">
@@ -139,15 +140,6 @@
                                         pinchRotate: true}
                                         });
                                     </script>
-                                    <div class="image-rights">
-                                        <xsl:text>Bildrechte © </xsl:text>
-                                        <xsl:value-of
-                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:repository[1]"/>
-                                        <xsl:text>, </xsl:text>
-                                        <xsl:value-of
-                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:settlement[1]"
-                                        />
-                                    </div>
                                 </div>
                                 <xsl:if test="descendant::tei:footNote">
                                     <p/>
@@ -475,8 +467,8 @@
                                                 <div class="card-body-anhang">
                                                   <div class="kommentarhang">
                                                   <h4>Zitiervorschlag</h4>
-                                                  <p><xsl:value-of select="$doc_title"/>. In: Fünf
-                                                  Briefe an Anton E. Schönbach. Digitale Edition
+                                                  <p><xsl:value-of select="$doc_title"/>. In:
+                                                  Briefe aus dem Nachlass von Anton E. Schönbach. Digitale Edition
                                                   Austrian Centre for Digital Humanities and
                                                   Cultural Heritage, November 2022, Stand
                                                   <xsl:value-of select="$currentDate"/><xsl:if
