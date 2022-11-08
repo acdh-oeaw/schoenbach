@@ -107,6 +107,7 @@
                                 </xsl:variable>
                                 <xsl:variable name="url-of-facsimile">
                                     <xsl:for-each select="tokenize($facsimiles, ' ')">
+                                        <xsl:text>"</xsl:text>
                                         <xsl:value-of select="."/>
                                         <xsl:text>.jp2/info.json"</xsl:text>
                                         <xsl:if test="not(position() = last())">
