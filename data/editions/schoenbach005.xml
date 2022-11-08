@@ -121,10 +121,10 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="Ebner-Eschenbach_00001"/>
-         <graphic url="Ebner-Eschenbach_00003"/>
-         <graphic url="Ebner-Eschenbach_00004"/>
-         <graphic url="Ebner-Eschenbach_00005"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/Ebner-Eschenbach_00001"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/Ebner-Eschenbach_00003"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/Ebner-Eschenbach_00004"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/Ebner-Eschenbach_00005"/>
       </surface>
    </facsimile>
    <text>

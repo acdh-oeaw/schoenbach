@@ -102,7 +102,7 @@
                             <div class="card-body-normalertext" data-index="true">
                                 <xsl:variable name="facsimiles">
                                     <xsl:value-of
-                                        select="distinct-values(descendant::tei:pb[not(starts-with(@facs, 'http') or starts-with(@facs, 'www.') or @facs = '' or empty(@facs)) and not(preceding-sibling::tei:tp/@facs = @facs) or (not(@facs))]/@facs)"
+                                        select="distinct-values(descendant::tei:facsimile[1]/tei:surface[1]/tei:graphic/@url)"
                                     />
                                 </xsl:variable>
                                 <xsl:variable name="url-of-facsimile">
@@ -114,6 +114,8 @@
                                         </xsl:if>
                                     </xsl:for-each>
                                 </xsl:variable>
+                                
+                                <xsl:apply-templates select=".//tei:body"/>
                                 <div id="openseadragon-photo" style="height:800px;">
                                     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/openseadragon.min.js"/>
                                     <script type="text/javascript">
@@ -136,17 +138,7 @@
                                         pinchRotate: true}
                                         });
                                     </script>
-                                    <div class="image-rights">
-                                        <xsl:text>Bildrechte © </xsl:text>
-                                        <xsl:value-of
-                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:repository[1]"/>
-                                        <xsl:text>, </xsl:text>
-                                        <xsl:value-of
-                                            select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:settlement[1]"
-                                        />
-                                    </div>
                                 </div>
-                                <xsl:apply-templates select=".//tei:body"/>
                                 <xsl:if test="descendant::tei:footNote">
                                     <p/>
                                     <xsl:element name="ol">

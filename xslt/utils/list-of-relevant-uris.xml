@@ -25,11 +25,11 @@ are but links to pdfs etc. an URL can be added
         <caption>Schnitzler/Bahr</caption>
         <color>#F9BD63</color>
     </item>
-    <!--<item>
+    <item>
         <abbr>fackel</abbr>
         <caption>Fackel</caption>
-        <color>#CE0F0B</caption>
-    </item>-->
+        <color>#CE0F0B</color>
+    </item>
     <item>
         <abbr>legalkraus</abbr>
         <caption>Rechtsakten</caption>
