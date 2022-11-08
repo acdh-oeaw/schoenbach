@@ -98,14 +98,14 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="1905-10-20"/>
+            <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1905-10-20"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="writingSession" n="1">
                 <p rend="center">
-                    <pb facs="1905-10-20"/>
+                    <pb facs="saar_1905-10-20"/>
                     <hi rend="pre-print">Ferdinand von Saar</hi></p>
                 <p>erlaubt sich,
                     verehrungsvollst herzliche Glückwünsche darzubringen.</p>
