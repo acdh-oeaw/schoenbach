@@ -96,6 +96,11 @@
             <change who="LU" when="2022-10-24">Angelegt aus Abschrift von Anna Lindner</change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="1905-10-20"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <div type="writingSession" n="1">

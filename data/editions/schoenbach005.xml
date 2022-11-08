@@ -119,6 +119,14 @@
          <change who="LU" when="2022-10-24">Angelegt aus Abschrift von Anna Lindner</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Ebner-Eschenbach_00001"/>
+         <graphic url="Ebner-Eschenbach_00003"/>
+         <graphic url="Ebner-Eschenbach_00004"/>
+         <graphic url="Ebner-Eschenbach_00005"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="address">

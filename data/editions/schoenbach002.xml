@@ -98,6 +98,14 @@
          <change who="LU" when="2022-10-24">Angelegt aus Abschrift von Anna Lindner</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1888-10-30_a"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1888-10-30_b"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1888-10-30_c"/>
+         <graphic url="https://iiif.acdh-dev.oeaw.ac.at/iiif/images/schoenbach/1888-10-30_d"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">
