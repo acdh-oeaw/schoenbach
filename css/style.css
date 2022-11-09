@@ -10,7 +10,7 @@ body {
     border-right-width: 0rem;
     border-left-width: 0rem;
     border-bottom-width: 0rem;
-    border-color: #62C3D0}
+    border-color: #59bcc1}
 
 .h1,
 h1 {
@@ -22,11 +22,11 @@ h1 a {
     font-weight: 600}
 
 a {
-    color: #62C3D0}
+    color: #59bcc1}
 
 
 a:not([href]):not([tabindex]) {
-    color: #62C3D0;
+    color: #59bcc1;
     text-decoration: none}
 
 a:not([href]):not([tabindex]).reference-black {
@@ -96,7 +96,7 @@ p.editionText a {
 quote {
     font-family: serif}
 .navbar {
-    border-bottom: 5px solid #62C3D0;
+    border-bottom: 5px solid #59bcc1;
     background-color: white;
     z-index: 99}
 .dropdown-item {
@@ -119,12 +119,12 @@ quote {
 }
 .dropdown-item.active,
 .dropdown-item:active {
-    color: #62C3D0;
+    color: #59bcc1;
     text-decoration: none;
-    background-color: #62C3D0}
+    background-color: #59bcc1}
 .dropdown-item.disabled,
 .dropdown-item:disabled {
-    color: #62C3D0;
+    color: #59bcc1;
     background-color: transparent
 }
 .dropdown-toggle:after {
@@ -136,7 +136,7 @@ quote {
     border: 1px solid rgba(0, 0, 0, .1);
     left: 0}
 .card-wrapper .card .card-inner {
-    border-top-color: #62C3D0 !important;
+    border-top-color: #59bcc1 !important;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.1);
     border-top-width: 5px !important}
@@ -162,7 +162,7 @@ h5 {
     padding-top: 0.3rem}
 
 .close {
-    color: #62C3D0;
+    color: #59bcc1;
 }
 
 
@@ -226,7 +226,7 @@ h5 {
     z-index: 99;
     left: 10px;
     top: 3px;
-    color: #62C3D0}
+    color: #59bcc1}
 
 #copyLinkTextfield {
     position: relative;
@@ -235,7 +235,7 @@ h5 {
     padding: 2px 5px 2px 30px;
     border: 1px solid black;
     border-radius: 5px;
-    color: #62C3D0;
+    color: #59bcc1;
     font-family: sans-serif;
     font-size: 13px;
     text-align: left;
@@ -318,28 +318,28 @@ div[type = "example"] {
     font-variant: small-caps}
 
 .btn-outline-success:hover {
-    color: #62C3D0;
+    color: #59bcc1;
     background-color: green;
     border-color: green}
 .btn-outline-success:not(:disabled):not(.disabled):active {
-    color: #62C3D0;
-    background-color: #62C3D0;
-    border-color: #62C3D0}
+    color: #59bcc1;
+    background-color: #59bcc1;
+    border-color: #59bcc1}
 
 .btn-link {
-    color: #62C3D0;
+    color: #59bcc1;
     font-size: 1.2rem}
 
 .btn-link.quotationbtn {
-    color: #62C3D0;
+    color: #59bcc1;
     padding-top: 0;
     text-decoration: none;
     font-size: 1rem;
     line-height: 1.5}
 
 .btn-outline-success {
-    border-color: #62C3D0;
-    color: #62C3D0}
+    border-color: #59bcc1;
+    color: #59bcc1}
 
 .btn-xs {
     padding: .25rem .4rem;
@@ -438,7 +438,7 @@ article.card.col-md-6 {
 
 
 .create-borders {
-    border-top-color: #62C3D0;
+    border-top-color: #59bcc1;
     border-top-width: 5px !important;
     border-top-style: solid;
     margin-top: 20pt;
@@ -638,7 +638,7 @@ ol.list-for-footnotes-meta p {
     position: relative;
     bottom: -0.2em;
     font-weight: bold;
-    color: #62C3D0}
+    color: #59bcc1}
 
 .circle {
 position: relative;
@@ -684,7 +684,7 @@ border-bottom-style: solid;
 
 .reference {
     cursor: pointer;
-    color: #62C3D0}
+    color: #59bcc1}
 
 .reference-black {
     cursor: pointer;
@@ -764,7 +764,7 @@ border-bottom-style: solid;
     border-bottom: 1px solid #000}
 
 .unlinked-entity {
-    color: #62C3D0}
+    color: #59bcc1}
 
 .unsicher {
     color: gray}
@@ -801,7 +801,7 @@ border-bottom-style: solid;
 .footer-widget.col-9 {
     padding-left: 30px}
 .apst-button {
-    background-color: #62C3D0;
+    background-color: #59bcc1;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -871,7 +871,7 @@ div.dataTables_filter {
     max-height: 160% !important}
 
 .index-card {
-    border-top: 5px solid #62C3D0;
+    border-top: 5px solid #59bcc1;
     transition: transform .2s}
 
 .index-card:hover {
@@ -927,7 +927,7 @@ button#ssDoSearch {
     transform: scale(1.05)}
 
 linkfarbe {
-    color: #62C3D0
+    color: #59bcc1
 }
 
 /*  Additions bei MAM for buttons */
@@ -967,7 +967,7 @@ a.briefe-button {
     padding: .25rem 1.25rem;
     font-size: .8rem;
     font-weight: 600;
-    color: #62C3D0;
+    color: #59bcc1;
     max-width: 10rem;
     transition: background-color ease .2s, color ease .2s;
 }
@@ -1072,7 +1072,7 @@ a.briefe-workbutton {
     padding: .25rem 1.25rem;
     font-size: .8rem;
     font-weight: 600;
-    color: #62C3D0;
+    color: #59bcc1;
     max-width: 10rem;
     transition: background-color ease .2s, color ease .2s;
 }
@@ -1080,7 +1080,7 @@ a.briefe-workbutton {
 a.leseliste-workbutton {
     display: inline-block;
     ;
-    background-color: #62C3D0;
+    background-color: #59bcc1;
     border: 0px solid #022954;
     border-radius: 10px;
     padding: .25rem 1.25rem;
@@ -1093,7 +1093,7 @@ a.leseliste-workbutton {
 
 a.tagebuch-workbutton {
     display: inline-block;
-    background-color: #62C3D0;
+    background-color: #59bcc1;
     border: 0px solid #037a33;
     border-radius: 10px;
     padding: .25rem 1.25rem;
@@ -1120,7 +1120,7 @@ a.bahrschnitzler-workbutton {
 
 a.black-workbutton {
     display: inline-block;
-    background-color: #62C3D0;
+    background-color: #59bcc1;
     border: 0px solid black;
     border-radius: 10px;
     padding: .25rem 1.25rem;
@@ -1148,7 +1148,7 @@ a.black-workbutton {
 
 #years-table .btn-light:focus, #years-table .btn-light.focus {
     text-decoration: underline;
-    text-decoration-color: #62C3D0;
+    text-decoration-color: #59bcc1;
     text-decoration-thickness: 4px
 }
 
