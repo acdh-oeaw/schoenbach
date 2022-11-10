@@ -27,19 +27,18 @@
                       <div class="carousel-caption" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
                            <h1>Anton Emanuel Schönbach</h1>
                                                 <h2>Fünf Briefe aus seinem Nachlass</h2>
-                                                <p>Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass 
-                                                des Germanisten Anton Emanuel Schönbach (1848–1911) aufbewahrt. Daraus veröffentlichen 
-                                                wir vier Briefe von Ferdinand von Saar an ihn, sowie ein Kondolenzschreiben von Marie von
-                                                Ebner-Eschenbach an seine Witwe.</p>
-                                                <button class="btn btn-round">
-                                                    <a href="toc.html">Zu den Briefen</a>
-                                                </button>
+                                                
+                                                
                             </div>
                         </div>                       
                     </div>
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
+                            <p style="font-size:18px;line-heigth:27px;">Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass 
+                                                des Germanisten Anton Emanuel Schönbach (1848–1911) aufbewahrt. Daraus veröffentlichen 
+                                                wir vier Briefe von Ferdinand von Saar an ihn, sowie ein Kondolenzschreiben von Marie von
+                                                Ebner-Eschenbach an seine Witwe.</p>
                                 <p style="font-size:18px;line-heigth:27px;">Folgende Briefe wurden ediert:</p>
                                     
                                  <ul>
@@ -64,9 +63,7 @@
                                             <img src="https://shared.acdh.oeaw.ac.at/schoenbach/personen.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <h3>
-                                                <i class="fa-solid fa-books"></i> Personen
-                                            </h3>                                            
+                                            <h3>Personen</h3>                                            
                                         </div>
                                     </div>                                     
                                 </a>                                    
@@ -78,9 +75,7 @@
                                             <img src="https://shared.acdh.oeaw.ac.at/schoenbach/werke.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <h3>
-                                                <i class="fa-solid fa-books"></i> Erwähnte Werke
-                                            </h3>                                            
+                                            <h3>Werke</h3>                                            
                                         </div>
                                     </div>                                     
                                 </a>                                    
@@ -92,9 +87,7 @@
                                             <img src="https://shared.acdh.oeaw.ac.at/schoenbach/orte.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <h3>
-                                                <i class="fas fa-map-marker-alt"></i> Erwähnte Orte
-                                            </h3>                                            
+                                            <h3>Orte</h3>                                            
                                         </div>
                                     </div>                                     
                                 </a>                                    
@@ -106,9 +99,7 @@
                                             <img src="https://shared.acdh.oeaw.ac.at/schoenbach/verlage.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <h3>
-                                                <i class="fas fa-university"></i>  Erwähnter Verlag
-                                            </h3>                                            
+                                            <h3>Verlag</h3>                                            
                                         </div>
                                     </div>                                     
                                 </a>                                    
