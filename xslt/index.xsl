@@ -23,7 +23,8 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                   <div class="wrapper" id="wrapper-hero">
-                      <div class="jumbotron" style="background-image: url(https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/hero-bg.jpg); background-size: 100%;"><div class="carousel-caption" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
+                      <div class="jumbotron" style="background-image: url(https://shared.acdh.oeaw.ac.at/schoenbach/ACDH-CH_Campus.jpg); background-size: 100%;">
+                      <div class="carousel-caption" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
                            <h1>Anton Emanuel Schönbach</h1>
                                                 <h2>Fünf Briefe aus seinem Nachlass</h2>
                                                 <p>Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass 
@@ -33,8 +34,7 @@
                                                 <button class="btn btn-round">
                                                     <a href="toc.html">Zu den Briefen</a>
                                                 </button>
-                                           
-                            
+                            </div>
                         </div>                       
                     </div>
                     <div class="container" style="margin-top:1em;">
