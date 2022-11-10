@@ -19,22 +19,12 @@
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
             
-            <body class="page">
+           <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                
-                    <div class="wrapper" id="wrapper-hero">
-                        <!--<div class="wrapper" id="wrapper-hero-content" >
-                            <div class="container hero-dark" id="wrapper-hero-inner" tabindex="-1">-->
-                                <div id="schoenbacgIndexCarousel" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#schoenbachIndexCarousel" data-slide-to="0" class="active"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="https://shared.acdh.oeaw.ac.at/schoenbach/ACDH-CH_Campus.jpg" class="d-block w-100" alt="..."/>
-                                            <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                                                <h1>Anton Emanuel Schönbach</h1>
+                  <div class="wrapper" id="wrapper-hero">
+                      <div class="jumbotron" style="background-image: url(https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/hero-bg.jpg); background-size: 100%;"><div class="carousel-caption" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
+                           <h1>Anton Emanuel Schönbach</h1>
                                                 <h2>Fünf Briefe aus seinem Nachlass</h2>
                                                 <p>Im Archiv der Österreichischen Akademie der Wissenschaften wird ein Splitternachlass 
                                                 des Germanisten Anton Emanuel Schönbach (1848–1911) aufbewahrt. Daraus veröffentlichen 
@@ -43,12 +33,9 @@
                                                 <button class="btn btn-round">
                                                     <a href="toc.html">Zu den Briefen</a>
                                                 </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <!--</div>
-                        </div>-->                        
+                                           
+                            
+                        </div>                       
                     </div>
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
