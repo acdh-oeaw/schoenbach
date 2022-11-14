@@ -47,7 +47,7 @@
                         <listBibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note></place>
+                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
                     <place xml:id="pmb50">
                         <placeName>Wien</placeName>
                         <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt
@@ -98,7 +98,7 @@
                             <bibl type="collections" n="5">legalkraus</bibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    <note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note></place>
+                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
                     <place xml:id="pmb41240">
                         <placeName>Österreich</placeName>
                         <placeName type="alternative-name">Republik Österreich</placeName>
@@ -190,7 +190,7 @@
                             <bibl type="collections" n="5">legalkraus</bibl>
                             <bibl type="collections" n="7">Default import collection</bibl>
                         </listBibl>
-                    <note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note></place>
+                    <note target="schoenbach003.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 20. 10. 1905</note><note target="schoenbach001.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 12. 1898</note><note target="schoenbach004.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 3. 1. 1888</note><note target="schoenbach002.xml" type="mentions">Ferdinand von Saar an Anton Emanuel Schönbach, 30. 10. 1888</note><note target="schoenbach005.xml" type="mentions">Marie von Ebner-Eschenbach an Anna Schönbach, 1. 9. 1911</note></place>
                     <place xml:id="pmb118167">
                         <placeName>Glacisstraße</placeName>
                         <desc type="entity_type">Straße (K.STR)</desc>
